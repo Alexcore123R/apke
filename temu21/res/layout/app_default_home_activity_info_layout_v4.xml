@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/activity_info_container" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <FrameLayout android:id="@id/activity_info1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/activity_info1_lay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/activity_info2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/activity_info2_lay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center_horizontal" android:id="@id/activity_info_divider" android:layout_width="0.5dip" android:layout_height="31.0dip" android:layout_marginTop="11.5dip" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_shadow" android:background="@drawable/app_default_home_activity_info_mask" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="33.0dip" app:background_normal="#fffff9f3" app:corner_radius="8.0dip" app:stroke_color_normal="#ffffe3d1" app:stroke_width_normal="0.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_benefit_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" android:layout_marginStart="10.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_benefit_text" android:layout_width="wrap_content" android:layout_height="33.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="4.0dip" android:layout_marginEnd="10.0dip" />
+</com.baogong.ui.flexibleview.FlexibleLinearLayout>

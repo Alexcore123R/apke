@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.pure_ui.widget.shimmer.ShimmerFrameLayout android:id="@id/sfl_promo_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_promo_wrapper" android:background="@drawable/app_baogong_shopping_cart_coupon_banner_bg_v4" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/shopping_cart_promotion_type34_height">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/app_baogong_shopping_cart_promotion_4_content" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.baogong.pure_ui.widget.shimmer.ShimmerFrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_shopping_cart_promotion_bubble_arrow" android:background="@drawable/app_baogong_shopping_cart_promotion_rec_arrow" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="9.0dip" android:layout_marginTop="-1.0dip" />
+</LinearLayout>

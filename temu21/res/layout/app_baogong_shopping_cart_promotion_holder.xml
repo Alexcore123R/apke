@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_promotion" android:background="@color/shopping_cart_normal_bg_color" android:paddingTop="@dimen/shopping_cart_promotion_padding_vertical" android:paddingBottom="@dimen/shopping_cart_promotion_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

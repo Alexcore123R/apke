@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/item_tips_details_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_address_tips_details_item_number" android:layout_width="16.0dip" android:layout_height="16.0dip" app:background_normal="#fffb7701" app:corner_radius="8.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <TextView android:textSize="13.0dip" android:textColor="#ff555555" android:id="@id/tv_address_tips_details_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" android:layout_marginStart="8.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/tv_address_tips_details_item_number" app:layout_constraintTop_toTopOf="0" app:layout_goneMarginStart="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

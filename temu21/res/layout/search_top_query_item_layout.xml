@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/isv_top_query_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="#ff000000" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/tv_top_query_word" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lines="1" android:includeFontPadding="false" android:layout_marginStart="2.0dip" />
+</LinearLayout>

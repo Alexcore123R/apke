@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/goods_sku_swipe_menu_layout" android:background="@color/shopping_cart_normal_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/shopping_cart_goods_sku_item_main" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/app_baogong_shopping_cart_manage_cart_goods_sku_item_main" />
+    <View android:id="@id/shopping_cart_sku_divider" android:background="@color/shopping_cart_divider_line_color" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginTop="2.0dip" android:layout_marginStart="154.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/shopping_cart_goods_sku_item_main" app:layout_goneMarginTop="2.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

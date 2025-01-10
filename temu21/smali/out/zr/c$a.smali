@@ -1,0 +1,77 @@
+.class public Lzr/c$a;
+.super Ljava/lang/Object;
+.source "Temu"
+
+# interfaces
+.implements Lzr/c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lzr/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Z
+    .registers 2
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public b(Lzr/d;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lzr/d<",
+            "Ljava/lang/Boolean;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    return-void
+.end method
+
+.method public c()Ljava/util/List;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lzr/b;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method

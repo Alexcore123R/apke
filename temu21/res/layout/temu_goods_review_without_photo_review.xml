@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.pure_ui.widget.IconSvgView2 android:id="@id/temu_goods_review_without_photo_icon" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0dip" android:textColor="@color/temu_goods_review_black" android:id="@id/temu_goods_review_without_photo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_7_7" android:id="@id/temu_goods_review_without_photo_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0dip" android:textColor="@color/temu_goods_review_black" android:gravity="center" android:id="@id/temu_goods_review_see_all_reviews" android:background="@drawable/temu_goods_review_see_all_review_bg" android:layout_width="250.0dip" android:layout_height="45.0dip" android:layout_marginTop="20.0dip" />
+</LinearLayout>

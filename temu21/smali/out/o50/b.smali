@@ -1,0 +1,56 @@
+.class public final synthetic Lo50/b;
+.super Ljava/lang/Object;
+.source "Temu"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lo50/c;
+
+.field public final synthetic b:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo50/c;Z)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lo50/b;->a:Lo50/c;
+
+    .line 5
+    .line 6
+    iput-boolean p2, p0, Lo50/b;->b:Z
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Lo50/b;->a:Lo50/c;
+
+    .line 2
+    .line 3
+    iget-boolean v1, p0, Lo50/b;->b:Z
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1, p1}, Lo50/c;->a(Lo50/c;ZLandroid/view/View;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

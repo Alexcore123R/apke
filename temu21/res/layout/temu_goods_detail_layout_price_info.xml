@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.goods.component.sku.widget.PriceFlexboxLayout android:layout_gravity="start|bottom|center" android:id="@id/price_tag_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.baogong.pure_ui.widget.FixedFlexboxLayout android:layout_gravity="start|bottom|center" android:id="@id/promotionContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:alignItems="baseline" app:flexWrap="wrap" />
+    <com.baogong.goods.component.sku.components.BubbleStyleFrameLayout android:id="@id/flPayLaterContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvGoodsDetailPayLaterContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:textAlignment="textStart" app:lineHeight="16.0dip" />
+    </com.baogong.goods.component.sku.components.BubbleStyleFrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

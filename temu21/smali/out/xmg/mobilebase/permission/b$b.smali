@@ -1,0 +1,14 @@
+.class public interface abstract Lxmg/mobilebase/permission/b$b;
+.super Ljava/lang/Object;
+.source "Temu"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lxmg/mobilebase/permission/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation

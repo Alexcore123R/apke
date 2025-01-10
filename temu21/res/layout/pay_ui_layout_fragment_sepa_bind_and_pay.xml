@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/view_top_divider" app:layout_constraintTop_toTopOf="0" />
+    <include layout="@layout/pay_ui_layout_fragment_item_header_with_safety_tips" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bind_rv_content_list" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/cl_submit_with_lock_icon" app:layout_constraintTop_toBottomOf="@id/view_top_divider" />
+    <include android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintBottom_toTopOf="@id/cl_submit_no_remember_card" layout="@layout/pay_ui_layout_item_submit_button_with_lock_icon" />
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" layout="@layout/pay_ui_layout_item_save_card_info_switch_v4" />
+    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="@id/bind_rv_content_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

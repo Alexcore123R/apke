@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cl_dialog" android:background="@drawable/app_login_dialog_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_bind_account_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/container_enter_phone" android:visibility="gone" layout="@layout/app_login_account_enter_phone" />
+    <include android:id="@id/container_phone_verify" android:visibility="gone" layout="@layout/app_login_account_phone_verify_code_layout" />
+    <include android:id="@id/layout_add_email" android:visibility="gone" layout="@layout/app_login_account_add_email_layout" />
+    <include android:id="@id/layout_verify_email" android:visibility="gone" layout="@layout/app_login_account_email_verify_code_input_layout" />
+</FrameLayout>

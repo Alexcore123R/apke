@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/category_top_bar" android:layout_width="fill_parent" android:layout_height="38.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <com.baogong.default_home.widget.theme.ThemeTextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/category_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="0" />
+        <com.baogong.default_home.widget.theme.ThemeIconSvg android:layout_gravity="center_vertical" android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/category_title" app:layout_constraintTop_toTopOf="0" app:svgFontSize="14.0dip" app:svgText="" app:svgTextColor="@color/black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.baogong.default_home.category.CustomScrollingWrapperView android:id="@id/scroll_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-13.0dip">
+        <com.baogong.default_home.animator.AutoScrollRecyclerView android:id="@id/quick_entrance" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <FrameLayout android:id="@id/app_default_home_icon_flag_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.baogong.default_home.category.CustomScrollingWrapperView>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/app_default_home_icon_indicator" android:visibility="gone" android:layout_width="66.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" />
+    <View android:id="@id/category_bottom_area" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <com.baogong.default_home.widget.theme.ThemeSplitLineView android:id="@id/category_split_line" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

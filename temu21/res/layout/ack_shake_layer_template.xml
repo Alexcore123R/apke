@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/translucent_cc" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ack_shake_popup_main" android:background="@drawable/shake_popup_error_bg" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="17.0dip" android:textColor="#ff151516" android:gravity="center" android:id="@id/ack_shake_tips" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="30.0dip" />
+        <View android:background="#ffd2d2d2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="17.0dip" android:textColor="#ff9c9c9c" android:gravity="center" android:id="@id/ack_shake_close_shake" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="#ffd2d2d2" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ffe02e24" android:gravity="center" android:id="@id/ack_shake_continue_shake" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.baogong.ui.widget.IconView android:textSize="10.0dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/ack_shake_close_button" android:background="@drawable/shake_error_popup_close_btn" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="-15.0dip" android:text="" android:layout_alignTop="@id/ack_shake_popup_main" android:layout_marginEnd="-15.0dip" android:layout_alignEnd="@id/ack_shake_popup_main" />
+</RelativeLayout>

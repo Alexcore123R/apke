@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="379.0">
+        <TextView android:textSize="48.0dip" android:textColor="@color/temu_goods_review_ui_black" android:id="@id/goods_review_mall_score_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_ui_343434" android:id="@id/goods_review_mall_review_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/goods_review_score_progress_list" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="621.0" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompatRtl android:orientation="horizontal" android:background="@drawable/temu_goods_detail_text_press_color_8_p_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="47.5dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0dip" android:textColor="@color/app_baogong_goods_detail_black" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/goods_detail_number_select_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lines="1" android:includeFontPadding="false" android:textAlignment="viewStart" android:paddingStart="16.0dip" android:paddingEnd="14.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/temu_goods_detail_black" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/goods_detail_number_select_desc_text" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingEnd="52.0dip" />
+        <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="end|center" android:id="@id/goods_detail_number_select_item_select" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginEnd="16.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_base_orange_color" app:svgSize="18.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompatRtl>
+    <View android:layout_gravity="bottom" android:background="@color/temu_goods_detail_dfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="16.0dip" />
+</FrameLayout>

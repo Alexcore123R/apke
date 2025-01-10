@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flGoodsDetailSkuSizeDescRoot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:textSize="13.0dip" android:textColor="@android:color/black" android:orientation="vertical" android:id="@id/tvGoodsDetailSkuSizeDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="31.0dip" app:lineHeight="20.0dip" />
+    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="end|center" android:id="@id/svgGoodsDetailSizeGuideIcon" android:duplicateParentState="true" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginEnd="9.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_text_color_black_7_7" app:svgSize="14.0dip" />
+</FrameLayout>

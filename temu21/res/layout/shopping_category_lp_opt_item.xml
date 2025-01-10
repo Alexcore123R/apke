@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="78.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.image.MaskRatioRoundImageView android:id="@id/icon_img" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:riv_corner_radius="30.0dip" app:riv_oval="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff777777" android:ellipsize="end" android:gravity="center" android:id="@id/icon_tv" android:layout_width="78.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="15.0dip" android:maxLines="2" android:includeFontPadding="false" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@id/icon_img" app:layout_constraintStart_toStartOf="@id/icon_img" app:layout_constraintTop_toBottomOf="@id/icon_img" />
+</androidx.constraintlayout.widget.ConstraintLayout>

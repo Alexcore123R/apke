@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_google_search_item" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="@color/app_address_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.baogong.app_baog_address_base.widget.IconFontTextView android:gravity="center" android:id="@id/icv_close_pop_up" android:background="#ffffffff" android:paddingTop="10.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

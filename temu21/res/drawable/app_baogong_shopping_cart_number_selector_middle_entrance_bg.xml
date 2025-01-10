@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:left="-1.0dip" android:right="-1.0dip">
+                <shape>
+                    <solid android:color="@color/shopping_cart_normal_bg_color" />
+                    <stroke android:width="0.5dip" android:color="@color/shopping_cart_num_selector_new_stroke_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/shopping_cart_normal_pressed_bg_color" />
+        </shape>
+    </item>
+</selector>

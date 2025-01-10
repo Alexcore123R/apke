@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_suggest_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.search.view.SearchSuggestRecyclerView android:id="@id/suggest_query_words" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

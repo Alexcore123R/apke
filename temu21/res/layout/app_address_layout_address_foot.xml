@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_address_footer_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleRelativeLayout android:gravity="center" android:id="@id/rl_add_address" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="40.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:background_normal="#fffb7701" app:background_pressed="#ffe76d00" app:corner_radius="22.0dip">
+        <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="16.0dip" android:gravity="bottom" android:layout_gravity="center_vertical" android:id="@id/tv_address_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:text_color_normal="#ffffffff" app:text_color_pressed="#ffebebeb" />
+    </com.baogong.ui.flexibleview.FlexibleRelativeLayout>
+</LinearLayout>

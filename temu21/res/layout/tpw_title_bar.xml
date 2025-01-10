@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/common_title_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/app_third_party_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/app_third_party_title_bar_height" android:layout_marginStart="4.0dip">
+        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_left" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="9.0dip" android:paddingEnd="11.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_third_party_title_bar_press_color" app:svgText="@string/web.app_web_back_icon" app:svgTextColor="@color/app_third_party_title_bar_default_color" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toEndOf="@id/ll_back" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_marginStart="110.0dip" android:layout_marginEnd="110.0dip">
+        <ImageView android:id="@id/iv_title_flag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerCrop" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" style="@style/AppWeb.TextViewStyle" />
+    </LinearLayout>
+    <View android:id="@id/title_hot_area" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@id/ll_right" android:layout_toEndOf="@id/ll_left" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/app_third_party_title_bar_height" android:layout_marginEnd="1.0dip" android:layout_alignParentEnd="true">
+        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_share" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="9.0dip" android:paddingEnd="11.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_third_party_title_bar_press_color" app:svgText="@string/web.app_web_share_icon" app:svgTextColor="@color/app_third_party_title_bar_default_color" />
+    </LinearLayout>
+    <View android:id="@id/iv_title_divider" android:background="@color/bg_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

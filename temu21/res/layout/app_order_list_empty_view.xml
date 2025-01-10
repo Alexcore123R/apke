@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="40.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/app_order_list_empty_data_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="-5.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="74.0dip" app:svgText="" app:svgTextColor="#ffcdcdcd" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="start" android:id="@id/app_order_list_empty_data_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dip" android:includeFontPadding="true" android:lineSpacingExtra="2.0dip" />
+</LinearLayout>

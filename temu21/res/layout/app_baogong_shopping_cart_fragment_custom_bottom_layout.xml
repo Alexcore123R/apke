@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/vs_shopping_cart_coupon_dialog_v2_new" android:layout="@layout/app_baogong_shopping_cart_fragment_new_coupon_dialog_layout_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/cl_bottom_checkout" />
+    <include android:id="@id/cl_bottom_checkout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" layout="@layout/app_baogong_shopping_cart_fragment_bottom_checkout_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

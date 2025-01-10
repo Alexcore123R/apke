@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/address_list_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_space" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/fl_address_dialog_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <com.baogong.ui.flexibleview.FlexibleLinearLayout android:orientation="vertical" android:id="@id/fl_address_dialog_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:background_normal="#ffffffff" app:corner_radius_top_left="16.0dip" app:corner_radius_top_right="16.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <include android:layout_width="fill_parent" android:layout_height="49.0dip" layout="@layout/app_baog_address_base_dialog_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/address_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="222.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_address" android:background="#fff6f6f6" android:paddingBottom="22.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:dividerHeight="10.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+            <include android:id="@id/address_page_bottom_button" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baog_address_base_page_bottom_bar" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/error_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="500.0dip">
+            <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.baogong.ui.flexibleview.FlexibleLinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

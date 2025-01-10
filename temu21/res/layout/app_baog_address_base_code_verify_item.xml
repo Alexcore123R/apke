@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/app_baog_address_base_single_yzm_input_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="30.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_yzm_input" android:layout_width="0.0dip" android:layout_height="0.0dip" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/view_vertical_line" android:background="#ff1877f2" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="34.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_yzm_input" app:layout_constraintEnd_toEndOf="@id/tv_yzm_input" app:layout_constraintStart_toStartOf="@id/tv_yzm_input" app:layout_constraintTop_toTopOf="@id/tv_yzm_input" />
+</androidx.constraintlayout.widget.ConstraintLayout>

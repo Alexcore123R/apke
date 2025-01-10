@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.CheckableImageView android:id="@id/iv_sub_item_check" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/app_base_ui_radio_button_selector" android:scaleType="centerCrop" />
+    <com.baogong.ui.widget.tags.TagCloudLayout android:id="@id/tcl_sub_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" app:lineSpacing="6.0dip" app:tagSpacing="2.0dip" />
+</LinearLayout>

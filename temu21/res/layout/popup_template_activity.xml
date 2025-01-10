@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/app_base_popup_market_simple_container" android:background="@color/translucent_cc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_base_popup_market_simple_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/app_base_popup_market_simple_btn_close" android:background="@drawable/app_base_ui_dialog_close_button_apparent_bg" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="-46.0dip" android:scaleType="fitCenter" android:layout_alignTop="@id/app_base_popup_market_simple_main" android:layout_marginEnd="-15.0dip" android:layout_alignEnd="@id/app_base_popup_market_simple_main" />
+</RelativeLayout>

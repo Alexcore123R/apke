@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleLinearLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginEnd="12.0dip">
+            <com.baogong.ui.widget.IconSVGView android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="16.0dip" app:svgText="e09b" app:svgTextColor="#ff0a8800" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff0a8800" android:id="@id/tv_delivery_guarantee_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/ll_delivery_guarantee_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="0.0dip" app:flexDirection="row" app:flexWrap="wrap" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" layout="@layout/order_confirm_learn_more_layout" />
+    </LinearLayout>
+</com.baogong.ui.flexibleview.FlexibleLinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/app_popup_style1_4_container" android:background="@color/translucent_cc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/cipher_animation_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/cipher_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/cipher_report_dialog" android:layout="@layout/app_popup_cipher_report_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

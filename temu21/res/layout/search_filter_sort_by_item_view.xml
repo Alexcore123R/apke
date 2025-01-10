@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sort_by_line" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="12.0dip" app:layout_constraintTop_toTopOf="0" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/search_color_777777" android:gravity="center_vertical" android:id="@id/sort_by_item_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/sort_by_item_select_ic" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/sort_by_item_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@id/sort_by_item_title" app:svgFontSize="13.0dip" app:svgText="" app:svgTextColor="@color/black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

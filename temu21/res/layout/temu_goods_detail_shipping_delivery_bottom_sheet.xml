@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0dip" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="-4.0dip" android:includeFontPadding="false" app:lineHeight="21.0dip" />
+        <com.baogong.tablayout.TabLayout android:id="@id/tl_tabs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:tabBackground="@null" app:tabGravity="center" app:tabIndicatorColor="@color/app_baogong_goods_black" app:tabIndicatorCornerRadius="4.0dip" app:tabIndicatorGravity="center" app:tabIndicatorHeight="4.0dip" app:tabIndicatorMarginBottom="5.0dip" app:tabIndicatorWidth="17.0dip" app:tabSelectedTextBoldType="fakeBold" app:tabSelectedTextColor="@color/app_baogong_goods_detail_black" app:tabShowIndicator="true" app:tabTextAppearance="@style/temu_goods_detail_bottom_sheet_tab_text" app:tabTextColor="@color/app_baogong_goods_text_color_black_7_7" />
+        <View android:background="@color/temu_goods_detail_dfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.baogong.viewpager.CustomViewPager android:id="@id/cvp_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="end" android:id="@id/isv_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginEnd="15.0dip" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_detail_black" app:svgSize="20.0dip" />
+    <com.baogong.ui.flexibleview.FlexibleView android:layout_gravity="end" android:id="@id/v_gradient" android:layout_width="12.0dip" android:layout_height="47.0dip" android:layout_marginEnd="47.0dip" />
+</FrameLayout>

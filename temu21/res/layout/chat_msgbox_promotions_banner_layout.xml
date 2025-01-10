@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/banner_anti_fraud_reminder_parent" android:background="#ff0a8800" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="35.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/banner_anti_fraud_reminder_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="#ffffffff" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/banner_anti_fraud_reminder_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:includeFontPadding="false" android:layout_marginStart="4.0dip" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

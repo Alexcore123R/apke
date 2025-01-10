@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_banner_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:id="@id/banner_contain_normal" android:layout="@layout/app_default_home_slide_banner_show_goods_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/banner_contain_rotate" android:layout="@layout/app_default_home_slide_banner_show_goods_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="102.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.default_home.widget.SlideGoodsView android:id="@id/goods_view" android:layout_width="102.0dip" android:layout_height="102.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="bottom|center" android:id="@id/price" android:layout_width="fill_parent" android:layout_height="25.0dip" android:maxLines="1" android:includeFontPadding="false" />
+</LinearLayout>

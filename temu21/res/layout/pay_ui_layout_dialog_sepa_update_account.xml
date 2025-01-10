@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#cd000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/mask_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/cl_dialog_content" app:layout_constraintTop_toTopOf="0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_dialog_content" android:background="@drawable/pay_ui_shape_rectangle_white_radius_top_16" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/guide_line_dialog_top">
+        <include layout="@layout/pay_ui_layout_dialog_item_header_with_safety_tips" />
+        <androidx.core.widget.NestedScrollView android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toTopOf="@id/cl_submit_with_lock_icon" app:layout_constraintTop_toBottomOf="@id/view_top_divider">
+            <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_iban" android:layout_width="49.0dip" android:layout_height="33.0dip" android:layout_marginTop="14.0dip" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+                <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:ellipsize="middle" android:id="@id/tv_iban_account" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="6.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_iban" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/iv_iban" app:layout_constraintTop_toTopOf="@id/iv_iban" />
+                <View android:id="@id/v_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintTop_toBottomOf="@id/iv_iban" />
+                <com.einnovation.whaleco.pay.ui.widget.input.SepaNameInputView android:id="@id/name_input_view" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintTop_toBottomOf="@id/v_divider" />
+                <View android:id="@id/input_section_bottom_divider" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="10.0dip" app:layout_constraintTop_toBottomOf="@id/name_input_view" />
+                <com.einnovation.whaleco.pay.ui.widget.SecurityCertIconTipsView android:id="@id/cl_security_cert" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/input_section_bottom_divider" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <include android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintBottom_toBottomOf="0" layout="@layout/pay_ui_layout_item_submit_button_with_lock_icon" />
+        <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="@id/view_top_divider" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_line_dialog_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="175.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

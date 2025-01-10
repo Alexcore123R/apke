@@ -1,0 +1,46 @@
+.class public final synthetic Ldn/g;
+.super Ljava/lang/Object;
+.source "Temu"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;)V
+    .registers 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ldn/g;->a:Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .registers 2
+
+    .line 1
+    iget-object v0, p0, Ldn/g;->a:Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;->c(Lcom/baogong/chat/chat/chat_ui/conversation/conversationList/ConversationListComponent;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

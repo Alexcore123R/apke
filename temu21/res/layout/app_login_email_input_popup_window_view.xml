@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/input_recommend_email_suffix" android:background="@drawable/app_login_email_suffix_recycle_bg" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:elevation="6.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/input_recommend_email_suffix" />
+</androidx.constraintlayout.widget.ConstraintLayout>

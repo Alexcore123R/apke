@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleLinearLayout android:orientation="vertical" android:paddingTop="13.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:background_normal="@android:color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.baogong.ui.widget.IconSVGView android:id="@id/order_confirm_security_title_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" app:svgFontSize="16.0dip" app:svgText="e097" app:svgTextColor="#ff0a8800" />
+        <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="15.0dip" android:textColor="#ff0a8800" android:id="@id/tv_security_certification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_content_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <com.baogong.ui.widget.tags.TagCloudLayout android:id="@id/order_confirm_cert_icon_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginStart="1.0dip" app:lineSpacing="6.0dip" app:tagSpacing="6.0dip" />
+</com.baogong.ui.flexibleview.FlexibleLinearLayout>

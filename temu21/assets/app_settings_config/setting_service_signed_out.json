@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": 101,
+      "name": "separator"
+    },
+    {
+      "id": 21,
+      "name": "sign_in",
+      "title": "Sign in / Register",
+      "page_el_sn": 2058663,
+      "link": "/login.html?needs_login=1&login_scene=100",
+      "needs_login": true,
+      "is_login_flag": false,
+      "extra_info": {
+        "login_scene": 100
+      }
+    },
+    {
+      "id": 101,
+      "name": "separator"
+    },
+    {
+      "id": 31,
+      "name": "location",
+      "title": "Country & region",
+      "page_el_sn": 200145,
+      "link": "/bgp_sub_setting.html?mode=location"
+    },
+    {
+      "id": 32,
+      "name": "language",
+      "title": "Language",
+      "page_el_sn": 200146,
+      "link": "/bgp_sub_setting.html?mode=language"
+    },
+    {
+      "id": 33,
+      "name": "currency",
+      "title": "Currency",
+      "page_el_sn": 200371,
+      "link": "/bgp_sub_setting.html?mode=currency"
+    },
+    {
+      "id": 101,
+      "name": "separator"
+    },
+    {
+      "id": 42,
+      "name": "about_this_app",
+      "title": "About this app",
+      "page_el_sn": 208205,
+      "link": "/app_about.html"
+    },
+    {
+      "id": 101,
+      "name": "separator"
+    }
+  ]
+}

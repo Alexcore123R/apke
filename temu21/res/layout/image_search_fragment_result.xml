@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/statusbar_placeholder_view" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" />
+    <RelativeLayout android:id="@id/root_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/search_result" android:background="@color/image_search_color_F6F6F6" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/common_title_layout" android:layout_alignParentBottom="true">
+            <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/al_fold_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" app:layout_scrollFlags="scroll|APKTOOL_MISSING_0x7f0906c8">
+                    <View android:layout_width="fill_parent" android:layout_height="74.0dip" />
+                </FrameLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <include android:id="@id/cl_preview_container" android:layout_width="fill_parent" android:layout_height="74.0dip" layout="@layout/image_search_result_preview_list" />
+            <com.baogong.image_search.widget.NestedScrollCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+                <com.google.android.material.appbar.AppBarLayout android:id="@id/al_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|APKTOOL_MISSING_0x7f0906ad">
+                        <include android:id="@id/rl_list_empty_tip_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/image_search_list_empty_tip" />
+                        <include android:id="@id/recommend_words_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_list_empty_tip_v2" layout="@layout/image_search_result_recommend_words" />
+                        <include android:id="@id/sort_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/recommend_words_container" layout="@layout/image_search_result_sort_bar" />
+                        <com.baogong.coupon.CouponNewPersonalView android:id="@id/free_shipping_view" android:background="@color/bg_background_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sort_container" app:inner_scene="search_result" app:inner_show="true" />
+                    </RelativeLayout>
+                </com.google.android.material.appbar.AppBarLayout>
+                <FrameLayout android:id="@id/fl_result_list_container" android:background="@color/bg_background_white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+            </com.baogong.image_search.widget.NestedScrollCoordinatorLayout>
+            <FrameLayout android:id="@id/category_filter_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <include android:id="@id/common_title_layout" layout="@layout/image_search_title_bar_layout" />
+        <FrameLayout android:id="@id/cl_image_container" android:background="@color/black" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/sv_viewfinder_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/rl_viewfinder_container" android:background="@drawable/image_search_bg_result_list_top_header_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:id="@id/iv_snapshot_place_holder" android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="300.0dip">
+                        <com.baogong.ui.widget.IconSVGView android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" app:svgFontSize="100.0dip" app:svgText="" app:svgTextColor="#fff6f6f6" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/iv_snapshot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/iv_shadow" android:focusable="false" android:focusableInTouchMode="false" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_alignTop="@id/iv_snapshot" android:layout_alignBottom="@id/iv_snapshot" android:alpha="0.0" />
+                </RelativeLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_dark_preview_image_list_container" android:background="@drawable/image_search_bg_result_list_top_header_dark" android:paddingTop="14.0dip" android:paddingBottom="22.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_result_dark_preview_image_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/rl_back_now" android:layout_width="fill_parent" android:layout_height="@dimen/app_base_title_bar_height">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_back_now" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/app_base_title_bar_icon_min_width" android:paddingStart="@dimen/app_base_title_bar_icon_padding_left">
+                    <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/iv_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="@dimen/app_base_title_bar_icon_size" app:svgPressedColor="@color/title_bar_icon_pressed_color" app:svgText="" app:svgTextColor="@color/white" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/tv_identify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="135.0dip" android:includeFontPadding="false" android:shadowColor="#b2000000" android:shadowRadius="3.0" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
+    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

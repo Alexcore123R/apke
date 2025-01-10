@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="15.0dip" android:typeface="sans" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/sm_custom_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" android:singleLine="true" android:includeFontPadding="true" style="@style/TextAppearance.Compat.Notification.Title" />
+        <TextView android:textSize="13.0dip" android:typeface="sans" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/sm_custom_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="300.0dip" android:singleLine="true" android:includeFontPadding="true" style="@style/TextAppearance.Compat.Notification" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sm_custom_img" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <ViewFlipper android:layout_width="36.0dip" android:layout_height="36.0dip" android:inAnimation="@anim/app_push_empower_light_in_small" android:flipInterval="1000" android:autoStart="true">
+            <ImageView android:layout_width="72.0dip" android:layout_height="36.0dip" android:src="@drawable/small_slice" android:scaleType="centerCrop" android:layout_marginStart="-72.0dip" />
+        </ViewFlipper>
+    </FrameLayout>
+</LinearLayout>

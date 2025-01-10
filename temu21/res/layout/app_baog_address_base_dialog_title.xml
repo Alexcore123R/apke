@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom|center" android:background="@drawable/app_baog_address_base_dialog_title_style" android:clickable="true" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="17.0dip" android:textColor="#ff151516" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="47.0dip" android:includeFontPadding="false" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/divider_title" android:background="@color/app_address_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="0" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/iv_close" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="16.0dip" app:svgText="e61d" app:svgTextColor="#ff000000" />
+</androidx.constraintlayout.widget.ConstraintLayout>

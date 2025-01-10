@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="43.0dip" android:paddingEnd="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/app_create_address_black_000000" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_select_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="viewStart" android:paddingStart="14.0dip" android:layout_marginEnd="10.0dip" />
+    <ImageView android:layout_gravity="center" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/app_baog_address_base_down_arrow" android:scaleType="fitCenter" />
+</com.baogong.ui.flexibleview.FlexibleLinearLayout>

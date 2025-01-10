@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.baogong.ui.widget.IconSVGView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/icon_view_error_hint" android:layout_width="120.0dip" android:layout_height="120.0dip" app:svgFontSize="120.0dip" app:svgText="" app:svgTextColor="#ffcdcdcd" />
+        <ImageView android:id="@id/iv_error_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_error_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff777777" android:gravity="center" android:id="@id/error_view_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <com.baogong.ui.widget.button.BGCommonButton android:gravity="center" android:id="@id/btn_retry" android:layout_width="250.0dip" android:layout_height="wrap_content" app:buttonHeightStyle="height_41" app:commBtnTextColor="@color/white" app:commBtnTextStyle="medium" app:commonButtonStyle="fill_fit_fix" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/empty_data_confirm" app:radius="22.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

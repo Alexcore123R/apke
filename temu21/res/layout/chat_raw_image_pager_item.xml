@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.chat.chat.multiMedia.container.ImageContainer android:id="@id/ctn_raw_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.chat.chat.view.widget.ChatPhotoFixView android:id="@id/iv_chat_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="center" android:id="@id/loading" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+</com.baogong.chat.chat.multiMedia.container.ImageContainer>

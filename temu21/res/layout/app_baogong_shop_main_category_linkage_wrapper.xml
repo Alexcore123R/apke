@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/app_shop_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.business.ui.widget.ScrollingWrapperVerticalView android:layout_width="96.0dip" android:layout_height="fill_parent">
+        <com.baogong.shop.main.components.view.ShopFlexChildRecyclerView android:id="@id/rv_app_shop_linkage_primary" android:background="@color/app_shop_f6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </com.baogong.business.ui.widget.ScrollingWrapperVerticalView>
+    <com.baogong.shop.main.components.view.ShopFlexChildRecyclerView android:id="@id/rv_app_shop_linkage_secondary" android:background="@color/app_shop_white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

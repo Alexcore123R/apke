@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_shopping_carbon" android:background="@color/shopping_cart_normal_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/iv_shopping_cart_carbon_divider" android:background="@color/shopping_cart_deep_dark_bg_color" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_carbon" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_carbon_pic" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="12.0dip" android:scaleType="centerCrop" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/shopping_cart_text_color_black" android:id="@id/tv_carbon_main_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="12.0dip" android:includeFontPadding="false" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/iv_show_detail" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/iv_carbon_pic" app:layout_constraintTop_toTopOf="0" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:id="@id/iv_show_detail" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginEnd="9.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="13.0dip" app:svgText="" app:svgTextColor="@color/shopping_cart_text_color_black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

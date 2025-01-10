@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/corners_bg" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.5dip" android:layout_marginStart="14.5dip" android:layout_marginEnd="14.5dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="17.0dip" android:textColor="#ff151516" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:includeFontPadding="false" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff58595b" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.5dip" android:includeFontPadding="false" android:lineSpacingExtra="1.5dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_btn" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_button_submit" android:background="@drawable/bg_btn" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginTop="20.5dip" android:layout_marginBottom="21.0dip" android:layout_marginStart="18.5dip" android:layout_marginEnd="18.5dip" />
+    </LinearLayout>
+    <View android:layout_gravity="end|center|top" android:id="@id/close" android:background="@drawable/app_base_ui_dialog_close_button_bg" android:visibility="visible" android:layout_width="29.0dip" android:layout_height="29.0dip" android:contentDescription="@string/app_base_ui.close" />
+</FrameLayout>

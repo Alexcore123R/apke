@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llGoodsDetailRecommendRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.tablayout.TabLayout android:id="@id/tabGoodsDetailRecommendTab" android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="45.0dip" app:tabBackground="@android:color/transparent" app:tabContentStart="12.0dip" app:tabGravity="center" app:tabIconHeight="15.0dip" app:tabIconWidth="15.0dip" app:tabIndicatorColor="@color/black" app:tabIndicatorCornerRadius="2.0dip" app:tabIndicatorHeight="4.0dip" app:tabIndicatorMarginBottom="6.0dip" app:tabIndicatorWidth="18.0dip" app:tabInlineLabel="true" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="9.0dip" app:tabPaddingStart="9.0dip" app:tabSelectedTextBoldType="fakeBold" app:tabSelectedTextColor="@color/black" app:tabTextAppearance="@style/temu_goods_detail_recommend_tab" />
+    <com.baogong.pure_ui.widget.NestedScrollableHost android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager.widget.NestedProductViewPager android:id="@id/vpGoodsDetailRecommendPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.baogong.pure_ui.widget.NestedScrollableHost>
+</LinearLayout>

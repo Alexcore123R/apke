@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="fill_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/first" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="-2.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_comment_black_color" app:svgText="" app:svgTextColor="@color/app_comment_demonstrate_color" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/second" android:layout_width="28.0dip" android:layout_height="28.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_comment_black_color" app:svgText="" app:svgTextColor="@color/app_comment_demonstrate_color" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/third" android:layout_width="28.0dip" android:layout_height="28.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_comment_black_color" app:svgText="" app:svgTextColor="@color/app_comment_demonstrate_color" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/forth" android:layout_width="28.0dip" android:layout_height="28.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_comment_black_color" app:svgText="" app:svgTextColor="@color/app_comment_demonstrate_color" />
+    <com.baogong.ui.widget.IconSVGView android:id="@id/fifth" android:layout_width="28.0dip" android:layout_height="28.0dip" app:svgFontSize="22.0dip" app:svgPressedColor="@color/app_comment_black_color" app:svgText="" app:svgTextColor="@color/app_comment_demonstrate_color" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/app_comment_gray_color" android:id="@id/score_detail" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="5.0dip" />
+</LinearLayout>

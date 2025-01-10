@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="end" android:id="@id/isv_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginEnd="15.0dip" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_detail_black" app:svgSize="20.0dip" />
+</FrameLayout>

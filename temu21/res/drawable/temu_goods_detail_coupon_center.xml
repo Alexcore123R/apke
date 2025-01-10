@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="98.0dip" android:width="259.0dip" android:viewportWidth="259.0" android:viewportHeight="98.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$temu_goods_detail_coupon_center__0" android:pathData="M257,0.5C257.41,0.5 257.79,0.67 258.06,0.94C258.33,1.21 258.5,1.59 258.5,2L258.5,62.53C257.46,62.64 256.52,63.11 255.82,63.82C255,64.63 254.5,65.76 254.5,67C254.5,68.24 255,69.37 255.82,70.18C256.52,70.89 257.46,71.36 258.5,71.47L258.5,94C258.5,94.97 258.11,95.84 257.47,96.47C256.84,97.11 255.97,97.5 255,97.5L4,97.5C3.03,97.5 2.16,97.11 1.53,96.47C0.89,95.84 0.5,94.97 0.5,94L0.5,71.47C1.54,71.36 2.48,70.89 3.18,70.18C4,69.37 4.5,68.24 4.5,67C4.5,65.76 4,64.63 3.18,63.82C2.48,63.11 1.54,62.64 0.5,62.53L0.5,2C0.5,1.59 0.67,1.21 0.94,0.94C1.21,0.67 1.59,0.5 2,0.5Z" android:strokeColor="#fffceddf" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffff7e0a" android:pathData="M2,0L257,0C258.1,-0 259,0.9 259,2L259,2L259,2L0,2C0,0.9 0.9,0 2,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M12,67L247,66.5" android:strokeColor="#fff6dec0" android:strokeWidth="0.5" android:fillType="evenOdd" />
+</vector>

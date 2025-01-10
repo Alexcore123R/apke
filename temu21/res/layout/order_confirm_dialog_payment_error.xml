@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_root" android:background="#cd000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleConstraintLayout android:id="@id/cl_dialog_content" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="540.0dip" android:layout_alignParentBottom="true" app:background_normal="#fff6f6f6" app:corner_radius_top_left="16.0dip" app:corner_radius_top_right="16.0dip" app:layout_constrainedHeight="true">
+        <include android:id="@id/ll_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/order_confirm_dialog_title" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_payment_list" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/ll_bottom_layout" app:layout_constraintTop_toBottomOf="@id/ll_top_layout" app:layout_constraintVertical_bias="0.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintVertical_bias="1.0">
+            <View android:id="@id/v_bottom_line" android:background="@color/order_confirm_base_divider_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="6.0dip" />
+            <com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_submit" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="6.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:background_normal="#fffb7701" app:corner_radius="22.0dip" app:layout_constraintVertical_bias="1.0">
+                <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="16.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:includeFontPadding="false" />
+            </com.baogong.ui.flexibleview.FlexibleLinearLayout>
+        </LinearLayout>
+    </com.baogong.ui.flexibleview.FlexibleConstraintLayout>
+</RelativeLayout>

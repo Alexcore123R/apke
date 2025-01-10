@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.pure_ui.widget.ProgressView android:layout_gravity="center_vertical" android:id="@id/tvGoodsDetailOverallFitProgress" android:layout_width="0.0dip" android:layout_height="6.0dip" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="12.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_ui_black" android:layout_gravity="center_vertical" android:id="@id/tvGoodsDetailOverallFitPercent" android:layout_width="40.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAlignment="textStart" />
+</LinearLayout>

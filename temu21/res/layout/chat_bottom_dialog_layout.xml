@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleConstraintLayout android:id="@id/app_chat_bottom_dialog_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background_normal="#fffefefe" app:corner_radius_top_left="16.0dip" app:corner_radius_top_right="16.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="@color/app_chat_bottom_dialog_green_0a8800" android:gravity="center" android:id="@id/app_chat_bottom_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_marginEnd="44.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/app_chat_bottom_dialog_title_left_icon" app:layout_constraintTop_toTopOf="0" />
+        <com.baogong.ui.widget.IconSVGView android:id="@id/app_chat_bottom_dialog_title_left_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="44.0dip" android:layout_marginEnd="5.0dip" app:layout_constraintEnd_toStartOf="@id/app_chat_bottom_dialog_title" app:layout_constraintHorizontal_chainStyle="2" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@id/app_chat_bottom_dialog_title" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="@color/app_chat_bottom_dialog_green_0a8800" />
+        <com.baogong.ui.widget.IconSVGView android:id="@id/app_chat_bottom_dialog_close_btn" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="center" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@id/app_chat_bottom_dialog_title" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="#ff000000" />
+    </com.baogong.ui.flexibleview.FlexibleConstraintLayout>
+    <View android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/app_chat_bottom_dialog_option_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/app_chat_bottom_dialog_cancel_container" android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/app_chat_bottom_dialog_cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/app_chat_bottom_dialog_cancel_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:maxLines="2" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:background="#fffeefe1" android:layout_width="fill_parent" android:layout_height="35.0dip" android:elevation="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/goods_detail_coupon_container" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginEnd="12.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/goods_detail_coupon_img" android:layout_width="wrap_content" android:layout_height="35.0dip" />
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/goods_detail_coupon_items" android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

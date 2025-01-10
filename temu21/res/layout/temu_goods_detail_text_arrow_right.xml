@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@drawable/temu_goods_detail_text_press_color_7_7" android:id="@id/tvGoodsDetailLeftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="center_vertical" android:id="@id/tvGoodsDetailRightArrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="0.5dip" android:layout_marginStart="2.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_text_color_black_7_7" app:svgPressedColor="@color/app_baogong_goods_text_pressed_color_7_7" app:svgSize="12.0dip" />
+</LinearLayout>

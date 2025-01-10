@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_order_list" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="start" android:id="@id/tv_order_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:textDirection="locale" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/v_top_title_divider" android:background="@color/pay_ui_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" app:layout_constraintTop_toBottomOf="@id/tv_order_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_order_list_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:divider="@null" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/v_top_title_divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

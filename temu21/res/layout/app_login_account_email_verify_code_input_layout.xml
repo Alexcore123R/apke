@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/app_login_dialog_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0dip" android:textColor="@color/app_login_black_222222" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/tv_email_verify_title" android:layout_width="wrap_content" android:layout_height="49.0dip" android:includeFontPadding="false" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="end" android:id="@id/svg_email_verify_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="@color/app_login_black_000000" />
+    </FrameLayout>
+    <View android:id="@id/view_title_divider" android:background="@color/app_login_base_gray_DFDFDF" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/app_login_black_000000" android:id="@id/tv_email_verify_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:includeFontPadding="false" android:lineSpacingExtra="6.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <include android:id="@id/fl_email_verify_yzm_input" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/tv_sub_title" layout="@layout/app_login_code_input" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_email_verify_verification_code_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="12.0dip" app:svgText="" app:svgTextColor="@color/app_login_red_FC3310" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/app_login_red_FC3310" android:id="@id/tv_email_verify_error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="13.0dip" android:layout_gravity="center_horizontal" android:id="@id/tv_email_verify_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:includeFontPadding="false" app:text_color_normal="@color/app_login_orange_FB7701" app:text_color_unable="@color/app_login_gray_777777" />
+</LinearLayout>

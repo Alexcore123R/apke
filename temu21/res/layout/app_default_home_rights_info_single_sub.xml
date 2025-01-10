@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff4b4743" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/rights_sub_count_down_prefix" android:layout_width="wrap_content" android:layout_height="16.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    <com.baogong.default_home.widget.theme.ThemeCountdownView14 android:textSize="9.0dip" android:textColor="@color/black" android:id="@id/rights_sub_count_down_timer" android:layout_width="wrap_content" android:layout_height="14.0dip" android:includeFontPadding="false" android:layout_marginStart="4.0dip" />
+</LinearLayout>

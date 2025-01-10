@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/app_baogong_shopping_cart_add_more_add_cart_selected_bg" />
+    <item android:state_pressed="false" android:drawable="@drawable/app_baogong_shopping_cart_add_more_add_cart_bg" />
+</selector>

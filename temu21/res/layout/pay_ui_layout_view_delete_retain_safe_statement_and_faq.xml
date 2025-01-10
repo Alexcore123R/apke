@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_safe_info_and_faq_root" android:paddingTop="20.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_flash" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <include app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/pay_ui_layout_dialog_sign_retain_content_item_top" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_secure" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/cl_flash">
+            <include app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/pay_ui_layout_dialog_sign_retain_content_item_top" />
+            <com.baogong.ui.widget.tags.TagCloudLayout android:id="@id/tcl_secure" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@id/tvTitle" app:layout_constraintStart_toStartOf="@id/tvTitle" app:layout_constraintTop_toBottomOf="@id/tvTitle" app:lineSpacing="4.0dip" app:tagSpacing="4.0dip" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/cl_contact" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/cl_secure" layout="@layout/pay_ui_layout_dialog_sign_retain_retain_content_item" />
+        <include android:id="@id/cl_faq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/cl_contact" layout="@layout/pay_ui_layout_dialog_sign_retain_retain_content_item" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_root" android:background="@color/app_login_white_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/app_login_black_CC000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_dialog" android:background="@drawable/app_login_dialog_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip">
+        <FrameLayout android:id="@id/fl_top_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_type_list" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/fl_top_container" />
+        <com.baogong.ui.widget.IconSVGView android:id="@id/svg_security_question_unavailable" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/rv_type_list" app:svgFontSize="13.0dip" app:svgText="" app:svgTextColor="@color/app_login_gray_AAAAAA" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/app_login_gray_AAAAAA" android:id="@id/tv_security_question_unavailable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="29.0dip" android:layout_marginEnd="29.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/rv_type_list" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

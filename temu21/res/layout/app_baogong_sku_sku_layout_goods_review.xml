@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.app_baogong_sku.widget.PressFrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="41.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/app_baogong_sku_review_bg" android:layout_width="fill_parent" android:layout_height="41.0dip" android:paddingStart="12.0dip" android:paddingEnd="9.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:lines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/tv_split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="3.0dip" android:paddingEnd="5.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_review" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:textDirection="firstStrong" android:textAlignment="viewStart" />
+        <com.baogong.ui.widget.IconSVGView android:layout_width="12.0dip" android:layout_height="12.0dip" app:svgFontSize="12.0dip" app:svgText="" app:svgTextColor="@color/black" />
+    </LinearLayout>
+</com.baogong.app_baogong_sku.widget.PressFrameLayout>

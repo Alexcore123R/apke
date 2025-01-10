@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.einnovation.whaleco.browser_video.video.widget.CallbackVideoView android:id="@id/cvv_video" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0" />
+    <FrameLayout android:id="@id/fl_bottom_icon_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/cvv_video">
+        <com.baogong.ui.flexibleview.FlexibleFrameLayout android:layout_gravity="start|bottom|center" android:id="@id/ffl_mute_icon_container" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="22.0dip" android:layout_marginStart="12.0dip" app:background_normal="#b3000000" app:corner_radius="16.0dip">
+            <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:id="@id/iv_mute_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="@color/white" />
+        </com.baogong.ui.flexibleview.FlexibleFrameLayout>
+        <com.baogong.ui.flexibleview.FlexibleFrameLayout android:layout_gravity="end|bottom|center" android:id="@id/ffl_off_icon_container" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="22.0dip" android:layout_marginEnd="12.0dip" app:background_normal="#b3000000" app:corner_radius="16.0dip">
+            <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="@color/white" />
+        </com.baogong.ui.flexibleview.FlexibleFrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_seekbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationY="27.0dip" app:layout_constraintBottom_toBottomOf="@id/cvv_video" />
+    <com.einnovation.whaleco.photo_browser.old_photo_browse.photoview.PhotoView android:id="@id/iv_cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.baogong.ui.flexibleview.FlexibleFrameLayout android:id="@id/ffl_play_icon_container" android:layout_width="60.0dip" android:layout_height="60.0dip" app:background_normal="#b3000000" app:corner_radius="30.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:id="@id/iv_play_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:svgFontSize="24.0dip" app:svgText="" app:svgTextColor="@color/white" />
+    </com.baogong.ui.flexibleview.FlexibleFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

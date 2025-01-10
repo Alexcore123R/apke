@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleImageView android:layout_gravity="center_horizontal" android:id="@id/retain_dialog_goods_image" android:layout_width="90.0dip" android:layout_height="90.0dip" app:corner_radius="2.0dip" />
+    <com.baogong.ui.flexibleview.FlexibleFrameLayout android:layout_gravity="bottom|center" android:id="@id/fl_retain_dialog_goods_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" app:background_normal="#a6000000" app:corner_radius="40.0dip">
+        <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/tv_retain_goods_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </com.baogong.ui.flexibleview.FlexibleFrameLayout>
+</FrameLayout>

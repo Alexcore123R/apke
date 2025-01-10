@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/dialog_container" android:background="@color/goods_similar_dialog_top_space_bg_color" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/flGoodsRecommendDialogRoot" android:background="@drawable/temu_goods_detail_shape_solid_white_top_r_16" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/flGoodsRecommendContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/flGoodsRecommendDialogClose" android:layout_width="49.0dip" android:layout_height="49.0dip" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha">
+            <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" app:svgCode="" app:svgNormalColor="#ff000000" app:svgSize="20.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

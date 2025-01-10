@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_comment_camera_unified" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="89.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/tab_middle_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+        <include android:id="@id/tab_album" android:layout_width="wrap_content" android:layout_height="@dimen/app_comment_camera_tab_height" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/tab_camera" app:layout_constraintStart_toStartOf="0" layout="@layout/app_comment_camera_tab_item" />
+        <include android:id="@id/tab_camera" android:layout_width="wrap_content" android:layout_height="@dimen/app_comment_camera_tab_height" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/tab_record" app:layout_constraintStart_toEndOf="@id/tab_album" layout="@layout/app_comment_camera_tab_item" />
+        <include android:id="@id/tab_record" android:layout_width="wrap_content" android:layout_height="@dimen/app_comment_camera_tab_height" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/tab_camera" layout="@layout/app_comment_camera_tab_item" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

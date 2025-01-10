@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Splash" parent="@style/AppTheme">
+        <item name="android:windowBackground">@drawable/splash_empty</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/NullAnimation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowSplashScreenBackground">@color/app_default_home_white_FFFFFF</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/app_splash_sys_splash_logo</item>
+    </style>
+</resources>

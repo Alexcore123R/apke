@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textColor="@color/sku_press_text_black_0_7" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_goods_name" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/svg_arrow" android:layout_width="12.0dip" android:layout_height="12.0dip" app:svgFontSize="12.0dip" app:svgPressedColor="@color/sku_press_text_black_0_7" app:svgText="" app:svgTextColor="@color/sku_color_777777" />
+</LinearLayout>

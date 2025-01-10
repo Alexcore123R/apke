@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/common_title_layout" layout="@layout/app_split_window_compat_settings_title_bar_layout" />
+    <LinearLayout android:id="@id/close_split_window_container" android:background="@drawable/app_split_window_compat_settings_item_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="47.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/common_title_layout">
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/close_split_window_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" android:stateListAnimator="@animator/app_split_window_compat_anim_state_alpha" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="end|center" android:id="@id/close_split_window_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="17.0dip" app:svgText="" app:svgTextColor="#ff000000" />
+    </LinearLayout>
+    <View android:id="@id/v_divider" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="12.0dip" app:layout_constraintTop_toBottomOf="@id/close_split_window_container" />
+    <LinearLayout android:id="@id/open_split_window_container" android:background="@drawable/app_split_window_compat_settings_item_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="47.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/v_divider">
+        <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/open_split_window_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_weight="1.0" android:stateListAnimator="@animator/app_split_window_compat_anim_state_alpha" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="end|center" android:id="@id/open_split_window_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="17.0dip" app:svgText="" app:svgTextColor="#ff000000" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

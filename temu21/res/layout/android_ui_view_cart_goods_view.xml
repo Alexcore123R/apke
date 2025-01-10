@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.image.MaskRatioRoundImageView android:id="@id/view_cart_goods_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="0" app:riv_corner_radius="2.0dip" />
+    <com.baogong.ui.capsule.CapsuleView android:id="@id/view_cart_bottom_capsule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" app:capsuleStyle="Small" app:capsuleTextSize="12" app:layout_constraintBottom_toBottomOf="@id/view_cart_goods_iv" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/view_cart_goods_iv">
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/view_cart_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffaaaaaa" android:ellipsize="end" android:id="@id/view_cart_market_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_alignBaseline="@id/view_cart_price_tv" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/view_cart_price_tv" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
