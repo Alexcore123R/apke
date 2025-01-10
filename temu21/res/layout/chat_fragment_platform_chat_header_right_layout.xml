@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.chat.chat.view.widget.PressableConstraintLayout android:gravity="center_vertical" android:id="@id/head_right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="46.0dip" android:paddingStart="0.0dip" android:paddingEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.IconView android:textSize="20.0dip" android:textColor="@color/black" android:id="@id/head_right_layout_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/head_right_layout_text" app:layout_constraintTop_toTopOf="0" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/head_right_layout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="60.0dip" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
-</com.baogong.chat.chat.view.widget.PressableConstraintLayout>

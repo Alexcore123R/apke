@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:background_normal="#99e7f3e6" app:corner_radius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.carousel.CarouselView android:id="@id/view_cart_title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/view_cart_goods_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" app:layout_constraintTop_toBottomOf="@id/view_cart_title">
+        <LinearLayout android:orientation="horizontal" android:id="@id/first_line_goods_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.baogong.business.ui.widget.goods.widget.ViewCartGoodsView android:id="@id/first_line_left_goods" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.baogong.business.ui.widget.goods.widget.ViewCartGoodsView android:id="@id/first_line_right_goods" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/second_line_goods_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+            <com.baogong.business.ui.widget.goods.widget.ViewCartGoodsView android:id="@id/second_line_left_goods" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.baogong.business.ui.widget.goods.widget.ViewCartGoodsView android:id="@id/second_line_right_goods" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.baogong.ui.widget.button.BGCommonButton android:gravity="center" android:id="@id/view_cart_add_cart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" app:bgColor="#fffb7701" app:buttonHeightStyle="height_31" app:commBtnTextColor="#ffffffff" app:commBtnWidth="165.0dip" app:commonButtonStyle="fill_fit_fix" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/view_cart_goods_container" app:pressedBgColor="#ffe76d00" app:radius="16.0dip" />
+</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

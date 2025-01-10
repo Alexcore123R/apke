@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.einnovation.temu.order.confirm.impl.view.EndTimeView android:id="@id/order_info_sub_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cell_background="#ff000000" app:cell_width="17.0dip" app:colon_color="#ff000000" app:colon_width="6.0dip" />
+</LinearLayout>

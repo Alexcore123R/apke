@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff777777" android:id="@id/tv_selected_express_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:includeFontPadding="false" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="46.0dip" android:layout_marginEnd="12.0dip" />
+    <FrameLayout android:id="@id/select_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="46.0dip" />
+    <FrameLayout android:id="@id/fl_sub_item_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="46.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

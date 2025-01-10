@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_manage" android:background="@drawable/app_baogong_shopping_cart_manage_popup_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/shopping_cart_text_color_black" android:id="@id/tv_measure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/net_error_real_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/viewstub_empty_data" android:layout="@layout/app_base_ui_layout_empty_data" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/viewstub_network_off" android:layout="@layout/app_base_ui_layout_network_off" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/viewstub_anti_climbing" android:layout="@layout/app_base_ui_layout_anti_climbing" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/viewstub_downgrade" android:layout="@layout/app_base_ui_layout_downgrade" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/viewstub_not_found" android:layout="@layout/app_base_ui_layout_not_found" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</RelativeLayout>

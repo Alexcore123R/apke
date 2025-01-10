@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/app_baogong_shopping_cart_bottom_checkout_tips_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="10.0dip" android:textColor="@drawable/app_baogong_shopping_cart_text_white_with_press_state_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_bottom_checkout_tips" android:layout_width="wrap_content" android:layout_height="17.0dip" android:maxLines="1" android:includeFontPadding="false" android:paddingStart="4.0dip" android:paddingEnd="6.0dip" />
-</FrameLayout>

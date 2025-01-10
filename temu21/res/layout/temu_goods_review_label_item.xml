@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompatRtl android:gravity="center" android:orientation="horizontal" android:background="@drawable/temu_goods_review_ui_label_bg" android:layout_width="wrap_content" android:layout_height="28.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/goods_review_label_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="12.0dip" android:layout_marginEnd="2.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_ui_black" android:id="@id/goods_review_label_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" />
-    <com.baogong.pure_ui.widget.IconSvgView2 android:id="@id/goods_review_label_right_icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="0.5dip" android:layout_marginStart="2.0dip" android:stateListAnimator="@animator/temu_goods_review_anim_state_rotate" app:svgCode="" app:svgNormalColor="@color/temu_goods_review_black" app:svgSize="10.0dip" />
-</androidx.appcompat.widget.LinearLayoutCompatRtl>

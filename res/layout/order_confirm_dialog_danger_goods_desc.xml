@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#cd000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleConstraintLayout android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background_normal="#ffffffff" app:corner_radius_top_left="16.0dip" app:corner_radius_top_right="16.0dip" app:layout_constraintBottom_toBottomOf="0">
+        <include android:id="@id/danger_goods_desc_dialog_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" layout="@layout/order_confirm_dialog_title" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/danger_goods_desc_goods_container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:overScrollMode="never" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/danger_goods_desc_dialog_title_container" />
+    </com.baogong.ui.flexibleview.FlexibleConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

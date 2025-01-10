@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="134.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="13.0dip" android:textColor="@color/order_confirm_AAAAAA" android:id="@id/tv_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-        <FrameLayout android:id="@id/fl_loading" android:layout_width="wrap_content" android:layout_height="31.0dip" android:layout_marginTop="11.0dip" android:minWidth="100.0dip" android:includeFontPadding="false" />
-    </LinearLayout>
-</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/sku_color_E8E8E8" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toTopOf="0" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/sku_color_black" android:id="@id/tv_purchase_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lineSpacingExtra="0.5dip" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <com.baogong.app_baogong_sku.widget.PressStateTextView android:textSize="12.0dip" android:textColor="@color/sku_color_777777" android:id="@id/tv_purchase_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="1.0dip" android:lineSpacingExtra="0.5dip" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/tv_purchase_title" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier_start" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="end" app:constraint_referenced_ids="tv_purchase_title, tv_purchase_detail" />
+    <com.baogong.ui.widget.ScrollingWrapperView android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/barrier_start" app:layout_constraintTop_toTopOf="0">
+        <com.baogong.ui.recycler.BGRecyclerView android:layout_gravity="center" android:id="@id/rv_orders" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    </com.baogong.ui.widget.ScrollingWrapperView>
+</androidx.constraintlayout.widget.ConstraintLayout>

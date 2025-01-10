@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="81.0dip" android:layout_height="81.0dip" android:src="@drawable/sys_webview_missing_icon" />
-    <TextView android:textSize="16.0dip" android:textColor="#ff58595b" android:id="@id/tv_missing_main_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/FastJS.TextViewStyle" />
-    <TextView android:textSize="14.0dip" android:textColor="#ff9c9c9c" android:id="@id/tv_missing_sub_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/FastJS.TextViewStyle" />
-</LinearLayout>

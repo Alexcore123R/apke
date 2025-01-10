@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="15.0dip" android:textColor="@color/app_login_base_black_000000" android:gravity="start" android:id="@id/tv_login_base_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/v_get_help" android:background="@drawable/app_comment_foot_button" android:layout_width="250.0dip" android:layout_height="41.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <com.baogong.ui.widget.IconSVGView android:gravity="center" android:id="@id/iv_item_chat" android:layout_width="18.0dip" android:layout_height="18.0dip" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/tv_get_help" app:layout_constraintHorizontal_chainStyle="2" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="18.0dip" app:svgText="" app:svgTextColor="@color/white" />
-    <TextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/tv_get_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/iv_item_chat" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

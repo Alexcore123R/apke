@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayout" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/loading_image" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/common_img_loading_grey" android:scaleType="centerInside" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/loading_text" app:layout_constraintHorizontal_chainStyle="2" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_goneMarginEnd="0.0dip" />
-    <TextView android:textSize="13.0dip" android:textColor="#ff9c9c9c" android:gravity="center" android:id="@id/loading_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/loading_image" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.image_search.widget.SelectedRoundedImageView android:id="@id/riv_preview" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <com.baogong.ui.widget.BorderTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_biz_name" android:layout_width="0.0dip" android:layout_height="17.0dip" android:maxLines="1" app:btv_backgroundColor="#ff000000" app:btv_cornerFourRadius="0,0,4,4" app:layout_constraintBottom_toBottomOf="@id/riv_preview" app:layout_constraintEnd_toEndOf="@id/riv_preview" app:layout_constraintStart_toStartOf="@id/riv_preview" />
-    <View android:id="@id/view_biz_background" android:background="#80ffffff" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/riv_preview" app:layout_constraintEnd_toEndOf="@id/riv_preview" app:layout_constraintStart_toStartOf="@id/riv_preview" app:layout_constraintTop_toTopOf="@id/riv_preview" />
-</androidx.constraintlayout.widget.ConstraintLayout>

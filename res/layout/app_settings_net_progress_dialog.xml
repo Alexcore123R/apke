@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="28.0dip" app:svgPressedColor="@color/app_base_ui_color_99FFFFFF" app:svgText="" app:svgTextColor="@color/white" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/app_base_ui_bg_dialog" android:paddingBottom="8.0dip" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:minHeight="124.0dip" android:layout_marginStart="14.5dip" android:layout_marginEnd="14.5dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/iv_close">
+        <ProgressBar android:id="@id/pb_progress" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="250.0dip" android:layout_height="16.0dip" android:layout_marginTop="24.0dip" android:progressDrawable="@drawable/app_settings_net_progress" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_title" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lineSpacingExtra="8.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

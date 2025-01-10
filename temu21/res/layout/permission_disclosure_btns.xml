@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottom_btn_container" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.button.BGCommonButton android:layout_gravity="center" android:id="@id/btnPositive" android:layout_width="fill_parent" android:layout_height="wrap_content" app:buttonHeightStyle="height_41" app:commonButtonStyle="fill_fit_fix" app:radius="20.0dip" />
-    <TextView android:textSize="15.0dip" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/btnNegative" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:includeFontPadding="false" android:stateListAnimator="@animator/permission_anim_state_alpha" />
-</LinearLayout>

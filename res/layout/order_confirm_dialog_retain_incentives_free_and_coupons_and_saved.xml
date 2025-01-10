@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="3.0dip">
+        <ImageView android:id="@id/iv_image_fir" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/tv_saved_desc_fir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip">
+        <ImageView android:id="@id/iv_image_sec" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/tv_saved_desc_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="3.0dip">
+        <ImageView android:id="@id/iv_image_third" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/tv_saved_desc_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

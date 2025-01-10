@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0dip" android:textColor="@color/image_search_color_black" android:ellipsize="end" android:gravity="center" android:id="@id/tv_item_title" android:layout_width="wrap_content" android:layout_height="28.0dip" android:maxWidth="260.0dip" android:minWidth="29.0dip" android:lines="1" android:includeFontPadding="false" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
-</LinearLayout>

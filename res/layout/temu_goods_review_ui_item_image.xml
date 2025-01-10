@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/goods_review_item_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@color/temu_goods_review_ui_img_bg" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/goods_review_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/goods_review_item_video_icon_bg" android:background="@drawable/temu_goods_review_ui_shape_video_play" android:layout_width="32.0dip" android:layout_height="32.0dip" app:layout_constraintBottom_toBottomOf="@id/goods_review_item_image_container" app:layout_constraintEnd_toEndOf="@id/goods_review_item_image_container" app:layout_constraintStart_toStartOf="@id/goods_review_item_image_container" app:layout_constraintTop_toTopOf="@id/goods_review_item_image_container">
+        <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="center" android:id="@id/goods_review_item_video_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" app:svgCode="" app:svgNormalColor="@color/temu_goods_review_ui_white" app:svgSize="13.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

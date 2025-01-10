@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/ll_app_baogong_shop_detail_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" />
-</androidx.core.widget.NestedScrollView>

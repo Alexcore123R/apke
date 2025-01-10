@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/app_chat_lego_page_or_float_layer_container_error_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.IconSVGView android:id="@id/app_chat_error_layout_error_image" android:layout_width="120.0dip" android:layout_height="120.0dip" app:svgFontSize="120.0dip" app:svgText="" app:svgTextColor="@color/CCCCCC" />
-    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/app_chat_error_layout_error_msg_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:includeFontPadding="false" android:textAlignment="center" />
-    <TextView android:textSize="13.0dip" android:textColor="#ff777777" android:id="@id/app_chat_error_layout_tips_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" android:textAlignment="center" />
-    <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/app_chat_error_layout_try_again_button" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="20.0dip" android:includeFontPadding="false" android:textAlignment="center" android:layout_marginStart="62.0dip" android:layout_marginEnd="62.0dip" />
-</LinearLayout>

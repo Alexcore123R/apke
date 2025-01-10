@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_category_seller" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_category_title_goods_seller_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.5dip" android:layout_marginStart="12.0dip">
+        <ImageView android:textSize="16.0dip" android:textColor="@color/app_shop_black" android:layout_gravity="center_vertical" android:id="@id/iv_shop_update_title_goods_seller" android:layout_width="18.0dip" android:layout_height="18.0dip" android:includeFontPadding="false" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/app_shop_black" android:layout_gravity="center_vertical" android:id="@id/tv_category_title_goods_seller" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_category_title_goods_seller_more" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+            <TextView android:textSize="13.0dip" android:textColor="@color/app_shop_black" android:layout_gravity="center_vertical" android:id="@id/tv_category_title_goods_seller_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="1.0dip" />
+            <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/category_title_goods_seller_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:svgFontSize="13.0dip" app:svgPressedColor="@color/app_shop_777777_60" app:svgText="" app:svgTextColor="@color/app_shop_black" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.baogong.business.ui.recycler.ChildRecyclerView android:id="@id/category_title_goods_seller_recycler_view" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <View android:background="@color/app_shop_f6f6f6" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

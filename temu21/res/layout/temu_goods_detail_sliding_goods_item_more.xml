@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleFrameLayout android:layout_width="79.0dip" android:layout_height="138.0dip" app:background_normal="@color/app_baogong_goods_f7f7f7"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:background="@color/app_baogong_goods_color_8_p_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="@animator/temu_goods_detail_anim_state_cover_alpha" />
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="center_horizontal" android:id="@id/temu_goods_detail_sliding_goods_see_all_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_detail_black" app:svgSize="28.0dip" />
-        <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/app_baogong_goods_detail_black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/temu_goods_detail_sliding_goods_see_all_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:includeFontPadding="false" />
-    </LinearLayout>
-</com.baogong.ui.flexibleview.FlexibleFrameLayout>

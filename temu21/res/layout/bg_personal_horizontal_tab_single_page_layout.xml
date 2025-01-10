@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/tab_page_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="0" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/single_followed_shop_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintTop_toTopOf="0">
-        <com.baogong.app_personal.new_personal.widget.PersonalMallItemStyleTwoView android:id="@id/single_followed_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <com.baogong.app_personal.new_personal.widget.PersonalSeeAllView android:id="@id/mall_see_all_container" android:background="#fff7f7f7" android:layout_width="62.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:stateListAnimator="@animator/android_ui_text_state_alpha" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

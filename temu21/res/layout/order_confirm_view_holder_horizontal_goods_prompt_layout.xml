@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="13.0dip" android:textColor="#fffb7701" android:id="@id/prompt_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
-    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="start|center" android:id="@id/danger_goods_desc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
-</LinearLayout>

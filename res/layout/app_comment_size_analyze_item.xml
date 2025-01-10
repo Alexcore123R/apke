@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/size_analyze_item" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:id="@id/ic_check" android:layout_width="22.0dip" android:layout_height="22.0dip" app:svgFontSize="22.0dip" app:svgText="" app:svgTextColor="@color/app_comment_check_box_default" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/app_comment_black_color" android:gravity="start|center" android:id="@id/tv_size_analyze_item" android:layout_width="wrap_content" android:layout_height="22.0dip" android:maxLines="1" android:layout_marginStart="30.0dip" />
+    <ImageView android:id="@id/iv_triangle" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/app_comment_ic_triangle" />
+</FrameLayout>

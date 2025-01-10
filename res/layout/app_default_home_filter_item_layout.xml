@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="13.0dip" android:textColor="#ff555555" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_filter_item" android:background="@drawable/app_default_home_filter_selector_bg" android:layout_width="wrap_content" android:layout_height="29.0dip" android:maxWidth="264.0dip" android:lines="1" android:includeFontPadding="false" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

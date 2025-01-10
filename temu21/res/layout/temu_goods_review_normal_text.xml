@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_ui_black" android:gravity="center_vertical" android:id="@id/temu_goods_review_normal_text" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

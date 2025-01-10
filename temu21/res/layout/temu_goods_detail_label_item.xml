@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/temu_goods_review_ui_black" android:gravity="center" android:id="@id/goods_review_label_name" android:background="@drawable/temu_goods_review_ui_label_bg" android:layout_width="wrap_content" android:layout_height="28.0dip" android:includeFontPadding="false" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

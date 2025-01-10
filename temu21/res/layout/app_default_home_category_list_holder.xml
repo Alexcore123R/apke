@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/fl_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" />
-    <FrameLayout android:id="@id/fl_third_category" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/fl_container">
-        <View android:id="@id/v_divider" android:background="#ffdfdfdf" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toBottomOf="@id/rv_second_category" />
-        <com.baogong.ui.recycler.HorizontalRecyclerView android:id="@id/rv_third_category" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/v_divider" />
-    </FrameLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

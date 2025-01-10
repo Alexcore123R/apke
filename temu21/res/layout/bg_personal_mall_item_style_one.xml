@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="54.0dip" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.image.MaskRatioRoundImageView android:id="@id/personal_mall_icon" android:layout_width="54.0dip" android:layout_height="54.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:riv_corner_radius="27.0dip" />
-    <com.baogong.ui.flexibleview.FlexibleView android:id="@id/mall_red_dot" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginEnd="7.0dip" app:background_normal="#fffb7701" app:corner_radius="6.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:stroke_color_normal="@color/white" app:stroke_width_normal="1.0dip" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/personal_mall_name" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:maxLines="1" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/personal_mall_icon" />
-</androidx.constraintlayout.widget.ConstraintLayout>

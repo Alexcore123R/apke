@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="10.0dip" app:background_normal="@color/transparent" app:background_pressed="#14000000"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="start" android:id="@id/app_base_ui_list_popup_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="true" android:layout_weight="1.0" android:lineSpacingExtra="1.0dip" />
-    <com.baogong.ui.widget.IconSVGView android:id="@id/app_base_ui_list_popup_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" app:svgFontSize="13.0dip" app:svgText="" app:svgTextColor="@color/black" />
-</com.baogong.ui.flexibleview.FlexibleLinearLayout>

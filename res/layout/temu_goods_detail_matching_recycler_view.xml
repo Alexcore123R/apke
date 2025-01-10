@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.app_goods_detail.widget.NestedScrollableWrapperH android:paddingTop="2.0dip" android:paddingBottom="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.ui.recycler.BGRecyclerView android:id="@id/temu_goods_detail_matching_rv" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" />
+</com.baogong.app_goods_detail.widget.NestedScrollableWrapperH>

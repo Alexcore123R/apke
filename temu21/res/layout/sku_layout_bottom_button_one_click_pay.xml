@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_sku_dialog_confirm" android:background="@drawable/app_baogong_sku_confirm_press_state" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0dip" android:textColor="@color/app_baogong_sku_confirm_press_text" android:gravity="center" android:id="@id/tv_one_click_pay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="1.0dip" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_promotion_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip">
-        <TextView android:textSize="11.0dip" android:textColor="@color/app_baogong_sku_confirm_press_text" android:id="@id/tv_promotion_price" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textSize="10.0dip" android:textColor="@color/sku_color_white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_discount_info" android:background="@drawable/app_baogong_sku_confirm_discount_bg" android:layout_width="wrap_content" android:layout_height="14.0dip" android:includeFontPadding="false" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="2.0dip" />
-    </LinearLayout>
-</LinearLayout>

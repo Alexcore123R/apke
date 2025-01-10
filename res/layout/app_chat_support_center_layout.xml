@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:background="#fff6f6f6" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chat_support_center_content_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.baogong.ui.widget.IconView android:textSize="16.0dip" android:textColor="@drawable/app_chat_back_selector" android:id="@id/chat_support_center_icon_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textSize="13.0dip" android:textColor="@drawable/app_chat_back_selector" android:ellipsize="end" android:gravity="center" android:id="@id/chat_support_center_icon_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="4.0dip" />
+            <com.baogong.ui.widget.IconView android:textSize="10.0dip" android:textColor="#ff222222" android:id="@id/chat_support_center_icon_two" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="11.0dip" android:textColor="#ffaaaaaa" android:gravity="center" android:id="@id/chat_support_center_icon_desc_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

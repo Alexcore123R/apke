@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.widget.FixViewFlipper android:id="@id/app_shop_main_rank_flipper" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inAnimation="@anim/app_baogong_shop_main_right_in" android:outAnimation="@anim/app_baogong_shop_main_left_out" android:flipInterval="3000" android:autoStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

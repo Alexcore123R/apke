@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="14.0dip" android:textColor="#ff0a8800" android:id="@id/delivery_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:textDirection="locale" android:textAlignment="viewStart" />
-    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="12.0dip" android:textColor="#fffb7701" android:id="@id/compensate_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:textDirection="locale" android:textAlignment="viewStart" />
-    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="12.0dip" android:textColor="#ff777777" android:id="@id/prompt_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:textDirection="locale" android:textAlignment="viewStart" />
-</LinearLayout>

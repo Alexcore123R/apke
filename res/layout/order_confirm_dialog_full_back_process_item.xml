@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleView android:id="@id/full_back_process_item_dot" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="8.0dip" app:background_normal="#ff000000" app:corner_radius="1.5dip" />
+    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="13.0dip" android:textColor="#ff000000" android:id="@id/full_back_process_item_rule" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="6.0dip" />
+</LinearLayout>

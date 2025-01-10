@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/vs_normal_title" android:layout="@layout/sku_layout_title_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@id/vs_graph_title" android:layout="@layout/sku_layout_title_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@id/vs_normal_title_v2" android:layout="@layout/sku_layout_title_normal_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

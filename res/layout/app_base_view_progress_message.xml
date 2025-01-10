@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/app_base_progress_dialog_black_bg_v2" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/img_loading" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/common_img_loading_message" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

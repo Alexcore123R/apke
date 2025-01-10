@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/divider_container" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="103.0dip" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_left_line" android:background="@drawable/app_base_ui_divider_bar_view_line_bg" android:layout_width="81.0dip" android:layout_height="1.0dip" android:layoutDirection="ltr" />
+    <View android:background="@drawable/app_base_ui_divider_dot_bg" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+    <TextView android:textSize="17.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/divider_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" android:layout_marginStart="15.5dip" android:layout_marginEnd="15.5dip" />
+    <View android:background="@drawable/app_base_ui_divider_dot_bg" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+    <View android:id="@id/divider_right_line" android:background="@drawable/app_base_ui_divider_bar_view_line_bg" android:layout_width="81.0dip" android:layout_height="1.0dip" android:rotation="180.0" android:layoutDirection="ltr" />
+</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="78.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/history_item_find_similar" android:background="@drawable/app_history_pop_btn_bg" android:layout_width="wrap_content" android:layout_height="39.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
-    <View android:id="@id/history_popup_split" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="0.5dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
-    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/history_item_delete" android:background="@drawable/app_history_pop_btn_bg" android:layout_width="fill_parent" android:layout_height="39.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/constrain_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.pure_ui.widget.AnimRefreshView android:id="@id/anim_refresh_image_view" android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" app:ratio_h_x_w="1.0" />
-    <com.baogong.pure_ui.widget.AnimRefreshView android:id="@id/anim_refresh_view_v1" android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="7.0dip" app:layout_constraintTop_toBottomOf="@id/anim_refresh_image_view" />
-    <com.baogong.pure_ui.widget.AnimRefreshView android:id="@id/anim_refresh_view_v2" android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="7.0dip" app:layout_constraintTop_toBottomOf="@id/anim_refresh_view_v1" />
-    <com.baogong.pure_ui.widget.AnimRefreshView android:id="@id/anim_refresh_view_v3" android:background="#fff7f7f7" android:layout_width="0.0dip" android:layout_height="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginEnd="7.0dip" app:layout_constraintEnd_toStartOf="@id/anim_refresh_view_v4" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/anim_refresh_view_v2" />
-    <com.baogong.pure_ui.widget.AnimRefreshView android:id="@id/anim_refresh_view_v4" android:background="#fff7f7f7" android:layout_width="48.0dip" android:layout_height="16.0dip" android:layout_marginTop="7.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toBottomOf="@id/anim_refresh_view_v2" />
-</androidx.constraintlayout.widget.ConstraintLayout>

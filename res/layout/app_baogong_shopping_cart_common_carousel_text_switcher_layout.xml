@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="8.0dip" android:textStyle="bold" android:textColor="@color/shopping_cart_text_color_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_benefit_1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="16.0dip" android:includeFontPadding="false" android:lineSpacingExtra="-1.0dip" android:importantForAccessibility="no" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+    <TextView android:textSize="8.0dip" android:textStyle="bold" android:textColor="@color/shopping_cart_text_color_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_benefit_2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="16.0dip" android:includeFontPadding="false" android:lineSpacingExtra="-1.0dip" android:importantForAccessibility="no" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="50.0dip" android:layout_height="60.0dip">
+        <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <TextView android:textSize="1.0dip" android:textColor="#ffffe2b3" android:gravity="center|top" android:id="@id/common_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:includeFontPadding="false" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+        <TextView android:textColor="#fffafafa" android:gravity="bottom|center" android:id="@id/common_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="3.0dip" android:includeFontPadding="false" android:layout_below="@id/common_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/close_container" android:background="#01000000" android:padding="2.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="-10.0dip" android:layout_alignTop="@id/main_container" android:layout_marginEnd="-10.0dip" android:layout_alignEnd="@id/main_container">
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:id="@id/float_ic_close" android:background="@drawable/popup_template_impl_float_close_bg" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:includeFontPadding="false" app:svgFontSize="6.0dip" app:svgText="e61d" app:svgTextColor="@color/white" />
+    </FrameLayout>
+</RelativeLayout>

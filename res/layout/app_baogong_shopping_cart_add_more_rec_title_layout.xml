@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0dip" android:textColor="@color/shopping_cart_text_color_black" android:ellipsize="end" android:id="@id/tv_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintBottom_toTopOf="@id/divider" app:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/divider" android:background="@color/shopping_cart_divider_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/tv_title_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

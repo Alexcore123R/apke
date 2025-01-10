@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompatRtl android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/temu_goods_detail_selector_press_ebebeb_normal_trans" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.pure_ui.widget.IconSvgView2 android:id="@id/isv_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="12.0dip" app:svgCode="" app:svgNormalColor="#ff0a8800" app:svgSize="20.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="#ff0a8800" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:singleLine="false" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="30.0dip" app:lineHeight="18.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:gravity="end" android:id="@id/tv_link" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <com.baogong.pure_ui.widget.IconSvgView2 android:id="@id/isv_arrow" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginEnd="9.0dip" app:svgCode="" app:svgNormalColor="#ff777777" app:svgSize="13.0dip" />
-</androidx.appcompat.widget.LinearLayoutCompatRtl>

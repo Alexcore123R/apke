@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="12.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/app_order_list_order_button" android:layout_width="wrap_content" android:layout_height="31.0dip" android:minWidth="40.0dip" android:includeFontPadding="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:background_normal="@color/white" app:background_pressed="#ffebebeb" app:corner_radius="16.0dip" app:stroke_width_normal="0.5dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#fffb7701" android:id="@id/app_order_list_order_button_countdown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lines="1" android:includeFontPadding="false" />
+</LinearLayout>

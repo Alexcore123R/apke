@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="12.0dip" android:textColor="@color/shopping_cart_text_color_black" android:ellipsize="end" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/tv_flash_sub_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:lines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
-    <com.baogong.default_home.widget.theme.ThemeCountdownView17 android:textSize="13.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/tv_flash_sub_countdown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="17.0dip" android:includeFontPadding="false" android:layout_marginStart="6.0dip" />
-</LinearLayout>

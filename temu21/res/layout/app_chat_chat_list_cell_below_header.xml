@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.coupon.CouponNewPersonalView android:id="@id/cnpv_plugin_cell_below_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:inner_scene="message" app:inner_show="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

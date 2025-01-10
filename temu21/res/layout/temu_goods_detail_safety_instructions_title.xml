@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompatRtl android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/temu_goods_detail_selector_press_ebebeb_normal_trans" android:layout_width="fill_parent" android:layout_height="41.0dip" android:paddingStart="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_warning_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginEnd="2.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tv_safety_warning_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
-    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_width="13.0dip" android:layout_height="13.0dip" app:svgCode="" app:svgNormalColor="#ff000000" app:svgSize="13.0dip" />
-</androidx.appcompat.widget.LinearLayoutCompatRtl>

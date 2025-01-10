@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/order_confirm_try_again_bg" android:layout_width="wrap_content" android:layout_height="31.0dip" android:minWidth="100.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/img_loading" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/common_img_loading" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/order_confirm_black" android:layout_gravity="center" android:id="@id/tv_try_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
-</FrameLayout>

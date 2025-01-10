@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ViewStub android:id="@id/icon_view_stub" android:visibility="gone" android:layout="@layout/android_ui_billboard_front_icon_layout" android:inflatedId="@id/icon_view_stub" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginEnd="3.0dip" />
-    <TextView android:textSize="10.0dip" android:textColor="#ff555555" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/first_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginEnd="3.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <TextView android:textSize="12.0dip" android:textColor="#ff555555" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/second_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:includeFontPadding="false" />
-</com.baogong.ui.flexibleview.FlexibleLinearLayout>

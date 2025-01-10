@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/black" android:gravity="start" android:id="@id/tv_remind_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="6.0dip" android:lineSpacingExtra="4.0dip" android:textDirection="locale" android:textAlignment="viewStart" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/black" android:gravity="start" android:id="@id/tv_remind_item_content" android:background="@drawable/app_address_remind_dialog_item_background" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" android:textDirection="locale" android:textAlignment="viewStart" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+</LinearLayout>

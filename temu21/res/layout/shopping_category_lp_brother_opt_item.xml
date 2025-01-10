@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="13.0dip" android:textColor="@color/shopping_category_lp_brother_opt_text" android:ellipsize="end" android:gravity="start|center" android:id="@id/category_opt_tv" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" android:includeFontPadding="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_max="180.0dip" />
-</androidx.constraintlayout.widget.ConstraintLayout>

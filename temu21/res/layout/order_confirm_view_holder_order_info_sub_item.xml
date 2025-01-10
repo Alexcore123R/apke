@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.flexibleview.FlexibleConstraintLayout android:id="@id/amount_sub_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" app:corner_radius="2.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/amount_sub_arrow_up" app:layout_goneMarginTop="0.0dip" app:stroke_color_normal="#fffb7701" app:stroke_width_normal="0.5dip">
-        <LinearLayout android:orientation="horizontal" android:id="@id/ll_amount_sub_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/ll_amount_sub_value" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_goneMarginEnd="0.0dip" />
-        <com.einnovation.temu.order.confirm.impl.view.MaxWidthLinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/ll_amount_sub_value" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
-    </com.baogong.ui.flexibleview.FlexibleConstraintLayout>
-    <ImageView android:id="@id/amount_sub_arrow_up" android:layout_width="20.0dip" android:layout_height="9.0dip" android:src="@drawable/order_confirm_arrow_up" android:layout_marginEnd="11.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

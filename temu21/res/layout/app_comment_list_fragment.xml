@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/rl_title_layout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/app_base_common_title_bar_new" />
-    <include android:id="@id/go_to_chat_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/rl_title_layout" layout="@layout/app_comment_chat_entrance_bar" />
-    <com.baogong.business.ui.recycler.BGProductListView android:id="@id/rv_comment" android:background="@color/app_comment_main_background" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:dividerHeight="10.0dip" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/go_to_chat_container" />
-</androidx.constraintlayout.widget.ConstraintLayout>

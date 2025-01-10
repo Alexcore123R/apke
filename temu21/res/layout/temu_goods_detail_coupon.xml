@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/flGoodsDetailCouponContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baogong.coupon.CouponNewPersonalView android:id="@id/cvGoodsDetailNormalCouponView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:inner_scene="goods" app:inner_show="false"
-      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
-</FrameLayout>

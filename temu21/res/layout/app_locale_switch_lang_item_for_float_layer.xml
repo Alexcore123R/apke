@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ll_dialog_container" android:layout_width="fill_parent" android:layout_height="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <CheckBox android:id="@id/select_button" android:background="@drawable/app_base_ui_radio_button_selector" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:button="@null" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/select_button" app:layout_constraintTop_toTopOf="0">
-        <TextView android:textSize="13.0dip" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_standard_lang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-        <TextView android:textSize="11.0dip" android:textColor="#ffaaaaaa" android:gravity="center" android:id="@id/tv_current_lang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

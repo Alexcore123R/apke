@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_tips_img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="8.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/app_login_orange_FB7701" android:layout_gravity="center_vertical" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

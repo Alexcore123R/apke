@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="12.0dip">
-        <TextView android:textSize="16.0dip" android:textColor="@color/app_baogong_goods_detail_black" android:gravity="center_vertical" android:id="@id/goods_detail_text_title" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-        <com.baogong.pure_ui.widget.IconSvgView2 android:id="@id/goods_detail_text_title_go_icon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginStart="3.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_detail_black" app:svgSize="15.0dip" />
-    </LinearLayout>
-    <View android:id="@id/goods_detail_text_title_divide" android:background="@color/temu_goods_detail_dfdfdf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
-</LinearLayout>

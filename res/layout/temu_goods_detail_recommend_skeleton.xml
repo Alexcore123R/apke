@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompatRtl android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:divider="@drawable/temu_goods_detail_trans_divider_5" app:dividerPadding="5.0dip" app:showDividers="APKTOOL_MISSING_0x7f090e11"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/temu_goods_detail_recommend_skeleton_single_line" />
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/temu_goods_detail_recommend_skeleton_single_line" />
+</androidx.appcompat.widget.LinearLayoutCompatRtl>

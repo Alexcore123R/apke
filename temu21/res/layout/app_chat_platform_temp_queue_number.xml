@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/fl_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.5dip">
-        <ImageView android:id="@id/ic_left" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="14.0dip" android:layout_marginTop="1.0dip" />
-        <TextView android:textSize="13.0dip" android:textColor="#ffaaaaaa" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
-    </FrameLayout>
-</LinearLayout>

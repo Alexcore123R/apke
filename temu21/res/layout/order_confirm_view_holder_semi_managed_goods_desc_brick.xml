@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ViewStub android:id="@id/age_restrict_container" android:visibility="gone" android:layout="@layout/order_confirm_view_holder_age_restrict" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <ViewStub android:id="@id/invalid_goods_container" android:visibility="gone" android:layout="@layout/order_confirm_view_holder_invalid_goods_brick" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/age_restrict_container" />
-</LinearLayout>

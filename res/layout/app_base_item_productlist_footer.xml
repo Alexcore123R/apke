@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/footer_loading" layout="@layout/app_base_view_loading_footer_progress_view" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffaaaaaa" android:gravity="center" android:id="@id/footer_no_more" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_app_base_ui_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginTop="16.5dip" android:layout_marginBottom="16.5dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ff909297" android:gravity="center" android:id="@id/tv_app_base_ui_net_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.baogong.ui.widget.button.BGCommonButton android:id="@id/tv_app_base_ui_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" app:buttonHeightStyle="height_31" app:commBtnMaxWidth="290.0dip" app:commBtnText="@string/app_base_ui.refresh" app:commBtnTextColor="@color/black" app:commonButtonStyle="wireframe_fit_adapt" app:radius="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

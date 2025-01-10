@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dl_container_bg" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.einnovation.whaleco.photo_browser.old_photo_browse.view.DragLayout android:id="@id/dl_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_browser" android:background="@color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false" />
+    </com.einnovation.whaleco.photo_browser.old_photo_browse.view.DragLayout>
+    <FrameLayout android:id="@id/fl_float_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_browser_header" android:background="@drawable/whc_photo_browse_comment_down_gradient" android:layout_width="fill_parent" android:layout_height="116.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.baogong.ui.widget.IconSVGView android:id="@id/iv_icon_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="52.0dip" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="24.0dip" app:svgText="" app:svgTextColor="#ffffffff" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/fl_dynamic_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

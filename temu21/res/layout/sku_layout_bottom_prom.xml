@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/view_tip_divider" android:background="@color/sku_color_dfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" />
-    <include android:id="@id/layout_prom_benefit" layout="@layout/sku_layout_bottom_prom_benefit" />
-    <include android:id="@id/layout_prom_carousel" layout="@layout/sku_layout_bottom_prom_carousel" />
-    <FrameLayout android:id="@id/sku_fl_benefit_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

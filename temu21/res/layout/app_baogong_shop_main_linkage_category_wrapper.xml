@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/app_shop_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.shop.main.components.category.linkage.view.LinkageWrapper android:id="@id/vg_app_shop_linkage_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.baogong.shop.main.components.view.CategoryEmptyView android:id="@id/vw_app_shop_linkage_empty_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

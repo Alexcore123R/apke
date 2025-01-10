@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cipher_from_info" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/cipher_avatar" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/avatar_new_default" app:riv_corner_radius="12.5dip" />
-    <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/cipher_code_from" android:layout_width="wrap_content" android:layout_height="25.0dip" android:singleLine="true" android:layout_marginStart="4.0dip" />
-</LinearLayout>

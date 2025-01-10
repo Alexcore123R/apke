@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aimi="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="@drawable/app_base_ui_bg_dialog" android:paddingBottom="24.0dip" android:layout_width="290.0dip" android:layout_height="fill_parent" android:layout_marginTop="14.5dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="14.5dip" android:layout_marginEnd="14.5dip">
-        <ViewStub android:id="@id/vs_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <com.baogong.ui.widget.BorderTextView android:textSize="16.0dip" android:textColor="@color/app_base_red_bg_white_text_press_state" android:id="@id/tv_red_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" aimi:btv_backgroundColor="@color/red_bg_unpressed_color" aimi:btv_cornerRadius="4.0dip" aimi:btv_pressBackgroudColor="@color/red_bg_pressed_color" />
-    </LinearLayout>
-    <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_close" android:background="@drawable/app_base_ui_dialog_close_button_bg" android:layout_width="29.0dip" android:layout_height="29.0dip" />
-</FrameLayout>

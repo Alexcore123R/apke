@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.makeramen.roundedimageview.RoundedImageView android:layout_gravity="top" android:id="@id/riv_cell_solid" android:layout_width="2.0dip" android:layout_height="17.0dip" android:src="@color/black" android:layout_marginEnd="3.0dip" app:riv_corner_radius="2.0dip" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_cell_icon" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginEnd="5.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/tv_cell_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:lineHeight="17.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/black" android:id="@id/tv_cell_comma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1.0dip" />
-</LinearLayout>

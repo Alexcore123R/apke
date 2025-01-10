@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" layout="@layout/search_input_search_word_layout" />
-    <com.baogong.search.view.SearchView android:id="@id/search_bar_view" android:layout_width="fill_parent" android:layout_height="44.0dip" />
-    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" layout="@layout/search_input_suggest_layout" />
-    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" />
-</FrameLayout>

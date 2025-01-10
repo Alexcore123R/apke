@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.swipe.SwipeMenuLayout android:id="@id/shopping_cart_free_gift_swipe" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ios="true" app:layout_constraintTop_toTopOf="0" app:menu_width="68.0dip">
-        <include android:id="@id/shopping_cart_free_gift_item_main" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_shopping_cart_free_gift_item_main" />
-        <com.baogong.ui.swipe.SwipeItemLayout android:id="@id/shopping_cart_free_gift_delete" android:background="@drawable/app_baogong_shopping_cart_no_border_bg" android:layout_width="68.0dip" android:layout_height="fill_parent" app:itemBackgroundColor="@drawable/app_baogong_shopping_cart_sku_delete_bg_color" app:itemTextColor="@color/shopping_cart_text_color_white" app:itemTextSize="14.0dip" />
-    </com.baogong.ui.swipe.SwipeMenuLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

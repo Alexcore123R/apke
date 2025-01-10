@@ -1,0 +1,60 @@
+.class public final synthetic Le60/n;
+.super Ljava/lang/Object;
+.source "Temu"
+
+# interfaces
+.implements Lj71/g;
+
+
+# instance fields
+.field public final synthetic a:Le60/p;
+
+.field public final synthetic b:Le60/p$a;
+
+
+# direct methods
+.method public synthetic constructor <init>(Le60/p;Le60/p$a;)V
+    .registers 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Le60/n;->a:Le60/p;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Le60/n;->b:Le60/p$a;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)V
+    .registers 4
+
+    .line 1
+    iget-object v0, p0, Le60/n;->a:Le60/p;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Le60/n;->b:Le60/p$a;
+
+    .line 4
+    .line 5
+    check-cast p1, Lf71/b$a;
+
+    .line 6
+    .line 7
+    invoke-static {v0, v1, p1}, Le60/p;->b(Le60/p;Le60/p$a;Lf71/b$a;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0dip" android:textColor="@color/sku_color_black" android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
-    <View android:id="@id/viewDivider" android:background="#ff000000" android:layout_width="0.5dip" android:layout_height="11.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/sku_theme_color_FB7701" android:id="@id/tvAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="6.0dip" />
-    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <include android:id="@id/layout_num_selector" layout="@layout/sku_layout_num_selector" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include android:id="@id/login_bar_style_one" android:visibility="gone" layout="@layout/app_login_login_bar_style_one_layout" />
-        <include android:id="@id/login_bar_style_two" android:visibility="gone" layout="@layout/app_login_login_bar_style_two_layout" />
-    </LinearLayout>
-</merge>

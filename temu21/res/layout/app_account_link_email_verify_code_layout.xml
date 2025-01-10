@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_dialog" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/layout_verify_code_input" layout="@layout/app_login_account_email_verify_code_input_layout" />
-    <include android:id="@id/layout_link_email_success" android:visibility="gone" layout="@layout/app_account_link_email_successful_layout" />
-    <com.baogong.ui.widget.IconSVGView android:id="@id/svg_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="@color/app_login_black_000000" />
-    <com.baogong.ui.widget.IconSVGView android:id="@id/svg_back" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="16.0dip" app:svgText="" app:svgTextColor="@color/app_login_black_000000" />
-</androidx.constraintlayout.widget.ConstraintLayout>

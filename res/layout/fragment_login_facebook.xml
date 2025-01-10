@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_login_white_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.widget.IconSVGView android:layout_gravity="start|center|top" android:id="@id/svg_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="14.0dip" app:svgFontSize="24.0dip" app:svgText="" app:svgTextColor="@color/app_login_black_000000" />
+    <com.baogong.app_login.title.view.LoginRegionView android:layout_gravity="center_horizontal" android:id="@id/app_login_title_region_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <FrameLayout android:id="@id/fl_tips_below_title_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/first_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="85.0dip">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_first" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_continue_with" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="76.0dip">
+        <View android:background="@color/app_login_base_gray_DFDFDF" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/app_login_gray_777777" android:gravity="center" android:id="@id/tv_or" android:layout_width="wrap_content" android:layout_height="23.0dip" android:includeFontPadding="false" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <View android:background="@color/app_login_base_gray_DFDFDF" android:layout_width="105.0dip" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_other_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/ll_continue_with">
+        <include android:id="@id/ll_email_phone_login" android:layout_width="fill_parent" android:layout_height="49.0dip" layout="@layout/app_login_auth_item" />
+    </LinearLayout>
+    <TextView android:textSize="13.0dip" android:textColor="@color/app_login_gray_AAAAAA" android:gravity="center" android:id="@id/tv_user_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

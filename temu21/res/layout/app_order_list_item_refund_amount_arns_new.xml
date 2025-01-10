@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/app_order_list_item_refund_amount_arn_list" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/app_order_list_item_refund_amount_horizontal_divider" android:background="@color/order_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
-    <TextView android:textSize="@dimen/app_order_list_refund_amount_arn_note_text_size" android:textColor="@color/black" android:id="@id/app_order_list_item_refund_arn_item_note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/app_order_list_item_refund_amount_arn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" />
-    <include android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" layout="@layout/app_order_list_item_refund_amount_arn_item" />
-</LinearLayout>

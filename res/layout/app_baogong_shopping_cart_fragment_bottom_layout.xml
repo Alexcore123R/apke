@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/cl_bottom_checkout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_shopping_cart_fragment_bottom_checkout_layout" />
+</FrameLayout>

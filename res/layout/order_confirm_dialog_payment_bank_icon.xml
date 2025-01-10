@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.einnovation.temu.order.confirm.impl.vh.payment.OCRatioRoundedImageView android:id="@id/bank_icon" android:background="#08000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/bank_text" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minHeight="17.0dip" android:includeFontPadding="false" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/bank_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:layout_width="95.0dip" android:layout_height="27.0dip" app:background_normal="@color/white" app:background_pressed="@color/app_login_gray_EBEBEB" app:corner_radius="14.0dip" app:stroke_color_normal="@color/app_login_gray_DFDFDF" app:stroke_width_normal="0.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textColor="@color/app_login_black_000000" android:id="@id/tv_email_suffix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textDirection="ltr" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

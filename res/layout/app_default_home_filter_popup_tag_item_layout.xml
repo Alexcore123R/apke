@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_filter_item" android:background="@drawable/app_default_home_filter_selector_bg" android:layout_width="wrap_content" android:layout_height="29.0dip" android:lines="1" android:includeFontPadding="false" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+</LinearLayout>

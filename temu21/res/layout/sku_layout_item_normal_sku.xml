@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/layout_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="1.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" layout="@layout/sku_layout_item_normal_sku_title" />
-    <com.baogong.ui.widget.tags.TagCloudLayout android:id="@id/tcl_sku_color" android:background="@color/sku_color_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:tagSpacing="6.0dip" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/sku_color_black" android:id="@id/tv_select_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
-    <include android:id="@id/layout_size_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" layout="@layout/sku_layout_size_desc" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/app_chat_message_msgflow_recyclerview_empty" android:layout_width="fill_parent" android:layout_height="260.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.IconSVGView android:id="@id/app_chat_message_msgflow_recyclerview_empty_image" android:layout_width="120.0dip" android:layout_height="120.0dip" app:layout_constraintBottom_toTopOf="@id/app_chat_message_msgflow_recyclerview_empty_text" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2" app:svgFontSize="120.0dip" app:svgText="" app:svgTextColor="#ffcccccc" />
-    <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:id="@id/app_chat_message_msgflow_recyclerview_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/app_chat_message_msgflow_recyclerview_empty_image" />
-</androidx.constraintlayout.widget.ConstraintLayout>

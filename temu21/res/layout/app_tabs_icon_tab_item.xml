@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="7.5dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.makeramen.roundedimageview.RoundedImageView android:layout_gravity="center_vertical" android:id="@id/app_subjects_tab_view_icon" android:layout_width="23.0dip" android:layout_height="23.0dip" android:scaleType="fitCenter" app:riv_corner_radius="11.5dip" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/app_subjects_tab_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
-</LinearLayout>

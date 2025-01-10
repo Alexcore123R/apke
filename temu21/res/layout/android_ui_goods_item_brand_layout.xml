@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/goods_brand_tag_img" android:layout_width="14.0dip" android:layout_height="14.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/goods_brand_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/goods_brand_tag_img" app:layout_constraintTop_toTopOf="0" />
-</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/tpw_rl_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.einnovation.whaleco.third_party_web.view.TPWTitleBar android:id="@id/tp_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:show_back="true" app:show_title="true" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/app_third_party_sub_title" android:gravity="center" android:id="@id/tp_sub_title" android:background="@color/white" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:layout_below="@id/tp_title_bar" style="@style/AppWeb.TextViewStyle" />
-    <FrameLayout android:id="@id/tp_web_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tp_sub_title" />
-    <com.baogong.ui.ErrorStateView android:id="@id/tp_error_state_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tp_sub_title" />
-    <com.einnovation.whaleco.third_party_web.view.TPBottomNavigatorView android:id="@id/tp_navigator_view" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="@dimen/app_third_party_bottom_navigator_height" android:layout_alignParentBottom="true" />
-</RelativeLayout>

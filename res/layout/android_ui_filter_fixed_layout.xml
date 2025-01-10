@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.recycler.HorizontalRecyclerView android:orientation="horizontal" android:id="@id/rv_horizontal_fixed_filter" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="39.0dip" android:overScrollMode="never" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

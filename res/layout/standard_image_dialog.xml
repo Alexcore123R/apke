@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_content" android:background="@drawable/corners_bg" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_margin="14.5dip">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="19.0dip" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff151516" android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/color_btn" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_button_submit" android:background="@drawable/bg_btn" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginTop="19.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="end|center|top" android:id="@id/close" android:background="@drawable/app_base_ui_dialog_close_button_bg" android:layout_width="29.0dip" android:layout_height="29.0dip" android:contentDescription="@string/app_base_ui.close" />
+    </FrameLayout>
+</FrameLayout>

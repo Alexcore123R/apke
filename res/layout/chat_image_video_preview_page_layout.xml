@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/dl_container_bg" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.baogong.chat.chat.multiMedia.widget.ChatDragLayout android:id="@id/drag_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.baogong.ui.widget.ScrollingWrapperView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.baogong.chat.chat.multiMedia.widget.NotSupportMultiFingerRecyclerView android:id="@id/vp_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.baogong.ui.widget.ScrollingWrapperView>
+    </com.baogong.chat.chat.multiMedia.widget.ChatDragLayout>
+</FrameLayout>

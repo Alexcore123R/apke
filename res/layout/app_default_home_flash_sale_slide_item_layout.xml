@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="102.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.default_home.widget.SlideGoodsView android:id="@id/goods_view" android:layout_width="102.0dip" android:layout_height="102.0dip" app:showWatermark="true" />
+    <com.baogong.default_home.widget.SlidePriceView android:gravity="bottom" android:id="@id/price_view" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <ProgressBar android:id="@id/common_slide_goods_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:max="103" android:progress="3" android:progressDrawable="@drawable/app_default_home_slide_item_progress_bar_bg" style="@android:style/Widget.ProgressBar.Horizontal" />
+</LinearLayout>

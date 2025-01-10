@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="18.0dip" android:paddingStart="16.0dip" android:paddingEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/app_baogong_shop_info_top_shop_tag_icon_left" android:layout_width="10.0dip" android:layout_height="18.0dip" android:scaleType="centerCrop" />
-    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/app_shop_white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/app_baogong_shop_info_top_shop_tag_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/app_baogong_shop_info_top_shop_tag_icon_right" android:layout_width="10.0dip" android:layout_height="18.0dip" android:scaleType="centerCrop" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/app_shop_EBB873" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/app_baogong_shop_info_top_shop_tag_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:paddingStart="4.0dip" />
-    <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/app_baogong_shop_info_top_shop_tag_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="14.0dip" app:svgText="" app:svgTextColor="@color/app_shop_EBB873" />
-</LinearLayout>

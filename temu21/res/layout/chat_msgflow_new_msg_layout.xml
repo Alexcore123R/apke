@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end|bottom|center" android:id="@id/chat_msgflow_new_msg_layout" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="12.0dip" android:paddingStart="11.0dip" android:paddingEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0dip" android:textColor="#fffb7701" android:gravity="center_vertical" android:id="@id/chat_msgflow_new_msg_layout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
-    <ImageView android:id="@id/chat_msgflow_new_msg_layout_image" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginEnd="2.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@id/chat_msgflow_new_msg_layout_text" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

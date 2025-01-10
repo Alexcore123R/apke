@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingBottom="12.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/llRecTitle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0dip" android:textColor="@color/sku_color_black" android:layout_gravity="start" android:id="@id/tvRecTitle" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" android:paddingEnd="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/sku_color_black" android:gravity="center" android:id="@id/tvSeeAll" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_marginEnd="8.0dip" android:stateListAnimator="@animator/sku_anim_state_alpha" />
+    </LinearLayout>
+    <com.baogong.ui.widget.ScrollingWrapperView android:id="@id/srlRecGoods" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRecGoods" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="2.0dip" />
+    </com.baogong.ui.widget.ScrollingWrapperView>
+</androidx.appcompat.widget.LinearLayoutCompat>

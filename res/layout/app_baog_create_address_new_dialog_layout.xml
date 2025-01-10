@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/view_space" android:layout_width="fill_parent" android:layout_height="221.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom|center" android:id="@id/create_address_title_layout" android:background="@drawable/app_baog_address_base_dialog_title_style" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0dip" android:textColor="#ff151516" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="49.0dip" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="5.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+            <com.baogong.ui.widget.IconSVGView android:id="@id/ll_back" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="16.0dip" app:svgText="e61d" app:svgTextColor="#ff000000" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_sub_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+                <com.baogong.ui.widget.IconSVGView android:id="@id/iv_sub_title_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" app:svgFontSize="13.0dip" app:svgText="" app:svgTextColor="@color/app_address_sub_title_color" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/app_address_sub_title_color" android:id="@id/tv_sub_title_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:id="@id/divider_title" android:background="@color/app_address_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dialog_address_content_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/main_scroll_view" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/bottom_space" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_create_address" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/cl_create_address_pay_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baog_create_address_layout_pay" />
+                <include android:id="@id/cl_top_note_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" layout="@layout/app_baog_address_base_top_note" />
+                <LinearLayout android:orientation="vertical" android:id="@id/address_content_container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/space" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+                <include layout="@layout/app_create_address_set_default" />
+                <include android:id="@id/ll_safe_desc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baog_address_base_bottom_safe_desc" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:id="@id/bottom_space" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="57.0dip" app:layout_constrainedHeight="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/main_scroll_view" />
+        <include android:id="@id/address_page_bottom_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" layout="@layout/app_baog_address_base_page_bottom_bar" />
+        <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

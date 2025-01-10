@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/common_slide_top_bar" android:layout_width="fill_parent" android:layout_height="38.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <com.baogong.default_home.widget.theme.ThemeTextView android:textSize="14.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/common_slide_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lines="1" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="0" />
+        <com.baogong.default_home.widget.theme.ThemeIconSvg android:layout_gravity="center_vertical" android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@id/common_slide_title" app:layout_constraintTop_toTopOf="0" app:svgFontSize="14.0dip" app:svgText="" app:svgTextColor="@color/black" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.baogong.ui.widget.ScrollingWrapperView android:id="@id/common_slide_swv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip">
+        <com.baogong.ui.recycler.HorizontalRecyclerView android:id="@id/common_slide_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </com.baogong.ui.widget.ScrollingWrapperView>
+    <View android:id="@id/common_slide_bottom_white" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <com.baogong.default_home.widget.theme.ThemeSplitLineView android:id="@id/common_slide_split_line" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

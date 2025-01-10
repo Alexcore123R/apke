@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/business_ui_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/action_sheet_btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:background="@color/business_ui_color_f4f4f4" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-    <TextView android:textSize="17.0dip" android:textColor="@color/business_ui_color_151516" android:gravity="center" android:id="@id/cancel_tv" android:background="@drawable/business_ui_cell_selector_alpha" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:maxLines="1" />
-</LinearLayout>

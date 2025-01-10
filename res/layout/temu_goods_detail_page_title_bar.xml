@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.app_goods_detail.widget.ReplaceFrameLayout android:id="@id/extraContent" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" />
+    <FrameLayout android:id="@id/titleBarContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/flGoodsDetailTitleBarContainer" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <com.baogong.app_goods_detail.widget.TitleActionButton android:layout_gravity="center_vertical" android:id="@id/abGoodsDetailTitleBarBack" android:background="@drawable/temu_goods_detail_selector_title_icon" android:focusable="true" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginStart="12.0dip" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha" app:svg_code="" app:svg_margin_left="5.0dip" app:svg_size="24.0dip" />
+            <FrameLayout android:id="@id/flGoodsDetailTitleBarCenterContainer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.LinearLayoutCompatRtl android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/llGoodsDetailTitleBarRightActionContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/vTitleBarDivider" android:background="@color/temu_goods_detail_dfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+</merge>

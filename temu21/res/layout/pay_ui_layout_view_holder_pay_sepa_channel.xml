@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/rl_payment_root" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/vg_payment_item" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/pay_ui_layout_view_pay_item" />
-</FrameLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.einnovation.whaleco.order.view.SearchView android:id="@id/search_bar_view" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <View android:id="@id/search_bar_view_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/search_bar_view" app:layout_constraintEnd_toEndOf="@id/search_bar_view" app:layout_constraintStart_toStartOf="@id/search_bar_view" app:layout_constraintTop_toTopOf="@id/search_bar_view" />
-    <com.einnovation.whaleco.order.result_web_view.OrderSearchResultWebView android:id="@id/web_order_result_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/search_bar_view" />
-</androidx.constraintlayout.widget.ConstraintLayout>

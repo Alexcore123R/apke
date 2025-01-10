@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.popupwindow.PopupContainer android:id="@id/app_base_ui_action_popup_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/app_base_ui_action_popup_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:corner_radius="4.0dip" />
-</com.baogong.ui.popupwindow.PopupContainer>

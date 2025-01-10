@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="13.0dip" android:id="@id/tv_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:text_color_normal="#ff777777" app:text_color_pressed="#99777777" />
-    <com.baogong.ui.widget.IconSVGView android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/tv_learn_more" app:layout_constraintStart_toEndOf="@id/tv_learn_more" app:layout_constraintTop_toTopOf="@id/tv_learn_more" app:svgFontSize="11.0dip" app:svgPressedColor="#99777777" app:svgText="f60a" app:svgTextColor="#ff777777" />
-</androidx.constraintlayout.widget.ConstraintLayout>

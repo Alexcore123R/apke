@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="90.0dip" android:layout_height="90.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.flexibleview.FlexibleImageView android:id="@id/retain_dialog_shortage_image" android:layout_width="90.0dip" android:layout_height="90.0dip" app:corner_radius="2.0dip" />
-    <com.baogong.ui.flexibleview.FlexibleImageView android:background="#08000000" android:layout_width="90.0dip" android:layout_height="90.0dip" app:corner_radius="2.0dip" />
-    <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/retain_dialog_shortage_content" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:minHeight="20.0dip" android:includeFontPadding="false" android:lineSpacingExtra="-2.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" app:background_normal="#99000000" app:corner_radius="16.0dip" app:stroke_color_normal="#59ffffff" app:stroke_width_normal="0.5dip" />
-    <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/retain_dialog_add_more" android:background="#cc000000" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="90.0dip" android:includeFontPadding="false" />
-</FrameLayout>

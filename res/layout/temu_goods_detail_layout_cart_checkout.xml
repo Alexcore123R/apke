@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_cart_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+        <com.baogong.goods.component.sku.widget.carousel.CarouselLayout android:layout_gravity="center_vertical" android:id="@id/vf_benefits" android:paddingTop="6.0dip" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:inAnimation="@anim/temu_goods_detail_translate_alpha_in" android:outAnimation="@anim/temu_goods_detail_translate_alpha_out" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/iv_cart_icon" app:layout_constraintTop_toTopOf="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.baogong.app_goods_detail.widget.NestedScrollableWrapperH android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.baogong.ui.recycler.BGRecyclerView android:orientation="horizontal" android:id="@id/rv_goods_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.baogong.app_goods_detail.widget.NestedScrollableWrapperH>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="13.0dip" android:gravity="center" android:id="@id/tv_button" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="38.0dip" android:layout_marginEnd="42.0dip" app:background_normal="#fffb7701" app:background_pressed="#ffe76d00" app:corner_radius="20.0dip" app:text_color_normal="#ffffffff" app:text_color_pressed="#b3ffffff" />
+    </FrameLayout>
+    <View android:background="@color/app_baogong_goods_f6f6f6" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

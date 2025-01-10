@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@drawable/app_order_list_content_pay_tip_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:background="@drawable/app_order_list_content_pay_tip_left_bar" android:layout_width="3.0dip" android:layout_height="fill_parent" />
-    <com.baogong.order_list.widget.SpannableTextView android:textSize="13.0dip" android:id="@id/app_order_list_content_pay_notification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:includeFontPadding="true" android:layout_marginStart="8.0dip" app:text_color_normal="@color/black" app:text_color_pressed="#ff666666" />
-</LinearLayout>

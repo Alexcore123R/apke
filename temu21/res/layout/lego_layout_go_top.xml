@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.widget.ShadowFrameLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:id="@id/gotop" android:visibility="gone" android:clickable="true" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="17.0dip" android:layout_marginEnd="17.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/lego_ui_go_top_bg" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip">
-        <com.baogong.ui.widget.IconView android:textSize="16.0dip" android:textColor="@color/business_ui_color_58595B" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="" />
-        <TextView android:textSize="10.0dip" android:textColor="#ff151516" android:layout_gravity="center_horizontal" android:id="@id/tv_go_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
-    </FrameLayout>
-</com.baogong.ui.widget.ShadowFrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.order_list.widget.SpannableTextView android:textSize="13.0dip" android:textColor="@color/black" android:id="@id/app_order_list_select_package_tip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <View android:id="@id/app_order_list_select_package_divider" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="10.0dip" app:layout_constraintTop_toBottomOf="@id/app_order_list_select_package_tip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/app_order_list_select_package_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/app_order_list_select_package_divider" />
+</LinearLayout>

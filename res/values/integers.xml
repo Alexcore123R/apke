@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="app_search_common_expand_max_lines">6</integer>
+    <integer name="app_search_common_folded_max_lines">3</integer>
+    <integer name="app_search_common_folded_max_lines_recently">2</integer>
+    <integer name="app_search_common_history_tag_layout_expand_max_lines">6</integer>
+    <integer name="app_search_common_history_tag_layout_folded_max_lines">3</integer>
+    <integer name="bg_resource_integer_min_screen_width_bucket">1</integer>
+    <integer name="bottom_dialog_enter_animation_duration">200</integer>
+    <integer name="bottom_dialog_exit_animation_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="dynamic_feature_local_int">2023</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="list_popup_animation_duration">150</integer>
+    <integer name="popup_no_arrow_animation_duration">300</integer>
+    <integer name="search_filter_sub_layout_expand_max_lines">2</integer>
+    <integer name="search_filter_tag_layout_expand_max_lines">4</integer>
+    <integer name="search_filter_tag_layout_folded_max_lines">9999</integer>
+    <integer name="search_filter_tag_layout_not_more_view_max_lines">9999</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="temu_goods_detail_selector_color_duration">0</integer>
+</resources>

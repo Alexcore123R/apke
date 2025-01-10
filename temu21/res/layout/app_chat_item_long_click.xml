@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textStyle="bold" android:id="@id/tv_content" style="@style/app_chat_context_menu_text_view" />
-    <View android:layout_gravity="center_vertical" android:id="@id/v_splitline" android:background="@color/chat_color_FFDFDFDF" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="14.0dip" android:layout_marginStart="2.0dip" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/android_ui_best_sellers_sub_tab_bg" android:layout_width="fill_parent" android:layout_height="29.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="13.0dip" android:textColor="#ff777777" android:ellipsize="end" android:gravity="center" android:id="@id/tv_filter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" />
-    <com.baogong.ui.widget.IconSVGView android:id="@id/svg_show_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:svgFontSize="10.0dip" app:svgText="" app:svgTextColor="#ff777777" />
-    <com.baogong.ui.widget.IconSVGView android:id="@id/svg_hide_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:svgFontSize="10.0dip" app:svgText="" app:svgTextColor="#ff777777" />
-</LinearLayout>

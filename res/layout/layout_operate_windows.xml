@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout android:orientation="horizontal" android:id="@id/tv_bubbleLayout" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_radius="18.0dip">
+        <com.baogong.ui.recycler.HorizontalRecyclerView android:id="@id/rv_long_click_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout>
+</com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout>

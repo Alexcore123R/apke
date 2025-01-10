@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.app_goods_detail.widget.GoodsFrame android:fitsSystemWindows="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baogong.app_goods_detail.widget.GoodsParentRecyclerView android:id="@id/goodsDetailList" android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-1.0px" />
+    <FrameLayout android:id="@id/goodsDetailDynamicLayer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/goodsDetailDynamicLayerFragment" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.baogong.app_goods_detail.widget.GoodsDetailTitleBar android:id="@id/goodsDetailTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/goodsDetailBottomContainer" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/goodsDetailBottomFloat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <com.baogong.app_goods_detail.widget.BottomBarContainer android:orientation="vertical" android:id="@id/goodsDetailBottomBar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.baogong.app_goods_detail.widget.GoodsFrame>

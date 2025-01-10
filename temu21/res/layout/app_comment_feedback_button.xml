@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottom_btn_container" android:layout_width="fill_parent" android:layout_height="41.0dip">
-        <com.baogong.ui.widget.button.BGCommonButton android:gravity="center" android:id="@id/comment_helpus_contact" android:layout_width="fill_parent" android:layout_height="41.0dip" app:bgColor="@color/app_comment_main_color" app:buttonHeightStyle="height_41" app:commBtnTextColor="@color/app_comment_white_color" app:commBtnWidth="250.0dip" app:commonButtonStyle="fill_fit_fix" app:pressedBgColor="#ffe76d00" app:radius="20.0dip" />
-    </LinearLayout>
-    <com.baogong.ui.widget.button.BGCommonButton android:gravity="center" android:id="@id/tv_btn_continue" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="22.0dip" app:buttonHeightStyle="height_41" app:commBtnTextColor="@color/app_comment_black_color" app:commBtnWidth="250.0dip" app:commonButtonStyle="wireframe_fit_fix" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/bottom_btn_container" app:radius="20.0dip" />
-</androidx.appcompat.widget.LinearLayoutCompat>

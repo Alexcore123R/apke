@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompatRtl android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:showDividers="APKTOOL_MISSING_0x7f090e11"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/allowance_include_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" layout="@layout/sku_layout_title_allowance" />
-    <FrameLayout android:id="@id/flCarouselContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</androidx.appcompat.widget.LinearLayoutCompatRtl>

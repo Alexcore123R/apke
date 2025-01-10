@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/shop_list" android:background="@color/app_shop_white" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baogong.shop.main.components.view.ShopParentProductListView android:id="@id/shop_parent_list_view" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

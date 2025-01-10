@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="195.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/coupons_image" android:layout_width="fill_parent" android:layout_height="80.0dip" />
-    <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:id="@id/coupons_discount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:includeFontPadding="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
-    <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
-        <com.einnovation.temu.order.confirm.impl.view.RichTextView android:textSize="13.0dip" android:textColor="#d8000000" android:gravity="center" android:id="@id/coupons_end_time" android:layout_width="wrap_content" android:layout_height="17.0dip" android:includeFontPadding="false" />
-    </LinearLayout>
-</FrameLayout>

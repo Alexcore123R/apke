@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:id="@id/single_goods_card_container" android:background="#fffff9f5" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.business.ui.widget.goods.widget.CustomRadiusImageView android:id="@id/header_mask" android:layout_width="fill_parent" android:layout_height="113.0dip" android:scaleType="fitXY" app:layout_constraintTop_toTopOf="0" />
-    <FrameLayout android:id="@id/single_goods_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:layout_constraintTop_toTopOf="0">
-        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/single_goods_card_title" android:layout="@layout/android_ui_single_goods_title_stub" android:inflatedId="@id/single_goods_card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </FrameLayout>
-    <com.baogong.business.ui.widget.goods.widget.BaseGoodsView android:id="@id/single_goods_goods" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintTop_toBottomOf="@id/single_goods_title_container" />
-</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

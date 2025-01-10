@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_divider_top" android:background="#ffececec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintTop_toTopOf="0" />
+    <ViewStub android:id="@id/layout_coupon_view" android:layout="@layout/app_default_home_category_coupon_view" android:inflatedId="@id/layout_coupon_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/v_divider_top" />
+    <FrameLayout android:id="@id/fl_category_float" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@id/layout_coupon_view">
+        <com.baogong.business.ui.recycler.BGProductListView android:id="@id/rv_category_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.baogong.ui.recycler.HorizontalRecyclerView android:id="@id/rv_second_category" android:background="@color/design_default_color_on_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

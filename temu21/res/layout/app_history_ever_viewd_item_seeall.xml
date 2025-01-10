@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="100.0dip" android:layout_height="159.0dip" android:layout_marginStart="4.5dip" android:layout_marginEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/history_see_all_img" android:background="#ffececec" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <com.baogong.ui.widget.IconSVGView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="27.0dip" app:layout_constraintEnd_toEndOf="@id/history_see_all_img" app:layout_constraintStart_toStartOf="@id/history_see_all_img" app:layout_constraintTop_toTopOf="@id/history_see_all_img" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="#ff000000" />
-    <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:id="@id/history_rec_see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="@id/history_see_all_img" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

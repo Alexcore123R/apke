@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/input_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/vs_search_input_cart_top" android:layout="@layout/search_input_cart_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/vs_guess_searches_slide_style1" android:layout="@layout/search_guess_searches_layout_slide_style1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/history_group" android:paddingBottom="3.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/history_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:includeFontPadding="false" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+            <com.baogong.ui.widget.IconSVGView android:id="@id/history_delete_icon" android:padding="12.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="@id/history_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@id/history_title" app:svgFontSize="16.0dip" app:svgText="e607" app:svgTextColor="@color/search_aaaaaa_text_with_state_bg" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/search_aaaaaa_text_with_state_bg" android:gravity="center_vertical" android:id="@id/history_delete_done" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="@id/history_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@id/history_title" />
+            <ViewStub android:id="@id/vs_history_tag_style" android:layout="@layout/search_history_layout_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/history_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub android:id="@id/vs_hot_slide_style2" android:layout="@layout/search_hot_layout_slide2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/vs_footprint_style1" android:layout="@layout/search_input_recently_viewed_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/vs_search_input_cart_bottom" android:layout="@layout/search_input_cart_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

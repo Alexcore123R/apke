@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_take_video" android:layout_width="fill_parent" android:layout_height="48.0dip" android:includeFontPadding="false" app:layout_constraintTop_toTopOf="0" />
-    <View android:id="@id/v_divider" android:background="@color/app_comment_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintTop_toBottomOf="@id/tv_take_video" />
-    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_select_album" android:layout_width="fill_parent" android:layout_height="48.0dip" android:includeFontPadding="false" app:layout_constraintTop_toBottomOf="@id/v_divider" />
-    <View android:id="@id/v_divider_bot" android:background="@color/app_comment_main_background" android:layout_width="fill_parent" android:layout_height="10.0dip" app:layout_constraintTop_toBottomOf="@id/tv_select_album" />
-    <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="85.0dip" android:includeFontPadding="false" app:layout_constraintTop_toBottomOf="@id/v_divider_bot" />
-</androidx.constraintlayout.widget.ConstraintLayout>

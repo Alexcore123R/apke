@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/four_image_waist_card_view" android:inflatedId="@id/four_image_waist_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@id/single_image_waist_card_view" android:inflatedId="@id/single_image_waist_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ViewStub android:id="@id/push_popup_card_view" android:inflatedId="@id/push_popup_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

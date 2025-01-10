@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_benefit_background" android:layout_width="270.0dip" android:layout_height="89.0dip" android:layout_marginTop="68.0dip" android:scaleType="fitCenter" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+    <include android:id="@id/ll_benefit_item1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="@id/iv_benefit_background" app:layout_constraintTop_toTopOf="0" layout="@layout/app_baog_create_address_code_benefit_item" />
+    <include android:id="@id/ll_benefit_item2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="@id/iv_benefit_background" app:layout_constraintTop_toBottomOf="@id/ll_benefit_item1" layout="@layout/app_baog_create_address_code_benefit_item" />
+    <include android:id="@id/ll_benefit_item3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="@id/iv_benefit_background" app:layout_constraintTop_toBottomOf="@id/ll_benefit_item2" layout="@layout/app_baog_create_address_code_benefit_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

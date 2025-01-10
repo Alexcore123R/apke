@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.shop.main.components.shop_list.tab_layout.ShopTabLayout android:id="@id/shop_tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/app_shop_tab_layout_height" app:tabBackground="@drawable/app_shop_tab_selector_bg" app:tabGravity="center" app:tabIconHeight="15.0dip" app:tabIconWidth="15.0dip" app:tabIndicatorColor="@color/black" app:tabIndicatorHeight="4.0dip" app:tabInlineLabel="true" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="10.0dip" app:tabPaddingStart="10.0dip" app:tabSelectedTextColor="@color/black" app:tabTextAppearance="@style/ShopTabBarAppearance" app:tabTextColor="@color/app_shop_777777" />
+    <View android:id="@id/divider" android:background="@color/app_shop_DFDFDF" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.baogong.shop.main.components.shop_list.view_pager.ShopViewPager android:id="@id/shop_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

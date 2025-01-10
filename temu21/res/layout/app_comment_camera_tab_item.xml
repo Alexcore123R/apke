@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.einnovation.whaleco.app_comment_camera.view.TabItemView android:id="@id/tab_item_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/app_comment_camera_tab_height"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="17.0dip" android:textColor="@color/app_comment_camera_white_select" android:gravity="center" android:id="@id/tab_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <com.baogong.ui.widget.BorderView android:id="@id/tab_item_indicator" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="14.0dip" app:bv_backgroundColor="@color/white" app:bv_cornerRadius="2.0dip" app:layout_constraintEnd_toEndOf="@id/tab_item_name" app:layout_constraintStart_toStartOf="@id/tab_item_name" app:layout_constraintTop_toBottomOf="@id/tab_item_name" />
-</com.einnovation.whaleco.app_comment_camera.view.TabItemView>

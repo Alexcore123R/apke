@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompatRtl android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:showDividers="APKTOOL_MISSING_0x7f090e11"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_size_recommend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/sku_press_text_size_recommend" android:id="@id/tv_size_recommend" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" app:svgFontSize="12.0dip" app:svgPressedColor="@color/sku_color_60_777777" app:svgText="" app:svgTextColor="@color/sku_color_777777" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_size_feedback" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/sku_press_text_size_recommend" android:id="@id/tv_size_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" app:svgFontSize="12.0dip" app:svgPressedColor="@color/sku_color_60_777777" app:svgText="" app:svgTextColor="@color/sku_color_777777" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompatRtl>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.FloatRatingBar android:id="@id/comment_star_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.5dip" app:FloatRatingBarStarBackgroundDrawable="@drawable/app_base_ui_empty_star" app:FloatRatingBarStarDistance="3.0dip" app:FloatRatingBarStarForegroundDrawable="@drawable/app_base_ui_star_clip" app:FloatRatingBarStarHeight="12.0dip" app:FloatRatingBarStarWidth="12.0dip" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/black" android:id="@id/comment_tag_num_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="2.0dip" />
-</merge>

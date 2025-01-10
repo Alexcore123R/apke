@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/iv_retain_window" android:background="@color/shopping_cart_mask_bg_color" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginBottom="20.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:riv_corner_radius="2.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

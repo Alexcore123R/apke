@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/fl_sku_dialog_container" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:id="@id/sku_dialog_view_space" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sku_dialog_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.core.widget.NestedScrollView android:id="@id/scroll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                <include android:id="@id/sku_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sku_layout_title" />
+            </androidx.core.widget.NestedScrollView>
+            <com.baogong.app_baogong_sku.widget.StretchScrollView android:id="@id/sku_dialog_scroll" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_sku_main_container" android:background="@color/sku_color_white" android:paddingBottom="30.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/layout_activity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/sku_layout_title_activity" />
+                    <include android:id="@id/sku_dialog_sku_list" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_sku_fragment_layout_sku_list" />
+                    <include android:id="@id/layout_size_rec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" layout="@layout/sku_layout_item_size_recommend" />
+                    <include android:id="@id/sku_dialog_clothing_size_selection_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/sku_layout_clothing_size_selection_tip" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvCartPersonalizeInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+                    <include android:id="@id/sku_dialog_sku_custom" layout="@layout/sku_layout_custom" />
+                    <include android:id="@id/sku_dialog_amount" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sku_layout_amount" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/sku_dialog_sku_size_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:maxLines="2" android:includeFontPadding="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:lineHeight="19.0dip" />
+                    <include android:id="@id/ll_sku_dialog_review" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="11.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" layout="@layout/app_baogong_sku_sku_layout_goods_review" />
+                </LinearLayout>
+            </com.baogong.app_baogong_sku.widget.StretchScrollView>
+            <include android:id="@id/sku_dialog_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sku_layout_bottom_bar" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

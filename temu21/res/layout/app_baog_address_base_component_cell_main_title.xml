@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0dip" android:textColor="@color/app_create_address_state_color" android:gravity="center_vertical" android:id="@id/address_component_cell_title_asterisk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="2.0dip" />
-    <TextView android:textSize="15.0dip" android:textColor="@color/app_create_address_state_color" android:id="@id/address_component_cell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-</LinearLayout>

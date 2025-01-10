@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.business.ui.recycler.ChildRecyclerView android:id="@id/app_shop_item_child_recycler_view" android:background="@color/app_shop_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/vs_baogong_shop_new_arrival_tip" android:layout="@layout/app_baogong_shop_main_new_arrival_tip_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.shop.main.components.view.banner.BannerLayout android:id="@id/shop_square_bannerLayout" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" app:autoPlaying="true" app:centerScale="1.0" app:indicator_location="2" app:itemSpace="20" app:layout_constraintTop_toTopOf="0" app:moveSpeed="1.8" app:showIndicator="true" />
+    <com.baogong.ui.flexibleview.FlexibleView android:layout_width="fill_parent" android:layout_height="28.0dip" app:background_normal="@array/app_shop_color_array_make_up_banner_mask_t_b" app:gradient_orientation="TOP_BOTTOM" app:gradient_type="linear" app:layout_constraintBottom_toBottomOf="@id/shop_square_bannerLayout" />
+    <View android:background="@color/app_shop_f6f6f6" android:layout_width="fill_parent" android:layout_height="10.0dip" app:layout_constraintTop_toBottomOf="@id/shop_square_bannerLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

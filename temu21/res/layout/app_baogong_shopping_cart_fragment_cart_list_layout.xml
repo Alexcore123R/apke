@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/shopping_cart_normal_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.app_baogong_shopping_cart.widget.ShoppingCartRecyclerView android:id="@id/shopping_cart_recycler" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <ViewStub android:id="@id/fl_free_shipping_container_stub" android:visibility="gone" android:layout="@layout/app_baogong_shopping_cart_free_shipping_view_container_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

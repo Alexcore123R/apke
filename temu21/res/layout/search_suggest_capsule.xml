@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="27.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.IconSVGView android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintEnd_toEndOf="0" app:svgFontSize="10.0dip" app:svgText="" app:svgTextColor="#ff000000" />
-    <TextView android:textSize="13.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_capsule_recommend" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:layout_marginStart="2.0dip" />
-    <com.baogong.ui.widget.IconSVGView android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintEnd_toEndOf="0" app:svgFontSize="10.0dip" app:svgText="" app:svgTextColor="#ff000000" />
-</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0dip" android:textColor="@color/sku_color_black" android:gravity="center" android:background="@drawable/app_baogong_sku_bg_black_border" android:focusable="true" android:clickable="true" android:layout_width="110.0dip" android:layout_height="44.0dip" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

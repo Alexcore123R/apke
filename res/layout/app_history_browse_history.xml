@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/app_base_common_title_bar_new" />
+        <com.baogong.coupon.CouponNewPersonalView android:id="@id/history_sticky_coupon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:inner_scene="browsing_history" app:inner_show="true" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.baogong.business.ui.recycler.ParentProductListView android:id="@id/rv_main" android:background="#ffffffff" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/history_sticky_name" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:includeFontPadding="false" android:textDirection="locale" android:textAlignment="viewStart" android:paddingStart="12.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.baogong.ui.ErrorStateView android:id="@id/view_no_network" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/history_coffee" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="54.0dip" android:layout_marginBottom="154.0dip" android:layout_marginEnd="9.0dip">
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/history_water_bg" android:background="@drawable/app_history_water_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+            <ImageView android:layout_gravity="center|top" android:id="@id/history_water_img" android:layout_width="45.0dip" android:layout_height="50.0dip" android:layout_marginTop="-2.0dip" />
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/history_water_amount" android:layout_width="31.0dip" android:layout_height="16.0dip" android:layout_marginBottom="14.0dip" android:includeFontPadding="false" android:shadowColor="#ff004fa1" android:shadowRadius="2.0" />
+        </FrameLayout>
+        <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/history_water" android:background="@drawable/app_history_water" android:layout_width="60.0dip" android:layout_height="16.0dip" android:includeFontPadding="false" />
+    </FrameLayout>
+</FrameLayout>

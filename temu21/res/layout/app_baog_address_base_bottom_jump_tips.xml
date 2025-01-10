@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_field_tips" android:layout_width="17.0dip" android:layout_height="17.0dip" android:scaleType="fitCenter" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <com.baogong.app_baog_address_base.widget.IconFontTextView android:textSize="13.0dip" android:textColor="#fffb7701" android:gravity="start" android:id="@id/tv_field_tips" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="4.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/iv_field_tips" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

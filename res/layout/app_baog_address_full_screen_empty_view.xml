@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="160.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="120.0dip" android:layout_height="120.0dip" app:svgFontSize="120.0dip" app:svgText="e023" app:svgTextColor="#ffcdcdcd" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_empty_note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="4.0dip" />
+        <com.baogong.ui.flexibleview.FlexibleTextView android:textSize="15.0dip" android:gravity="center" android:id="@id/fl_empty_button" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="38.0dip" android:layout_marginEnd="38.0dip" app:background_normal="#fffb7701" app:background_pressed="#ffe76d00" app:corner_radius="21.0dip" app:text_color_normal="#ffffffff" app:text_color_pressed="#ffebebeb" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

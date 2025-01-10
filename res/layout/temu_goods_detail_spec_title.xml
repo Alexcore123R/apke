@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0dip" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvGoodsDetailSpecsName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:lines="1" android:textAlignment="textStart" android:layout_marginEnd="4.0dip" />
+        <com.baogong.goods.component.sku.widget.SizeSpecView android:id="@id/flSizeSpecContainer" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/app_baogong_goods_black" android:ellipsize="end" android:gravity="center" android:layout_gravity="end|center" android:id="@id/tvGoodsDetailSizeGuideText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dip" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:stateListAnimator="@animator/temu_goods_detail_anim_state_alpha" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/black" android:id="@id/tvStyleTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:includeFontPadding="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</FrameLayout>

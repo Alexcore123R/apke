@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/app_baogong_sku_bg_black_border" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_weight="1.0" android:paddingStart="11.0dip" android:paddingEnd="11.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.baogong.ui.widget.IconSVGView android:id="@id/svg_text_left" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="1.0dip" android:layout_marginEnd="1.0dip" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="@color/sku_color_black" />
-        <TextView android:textSize="16.0dip" android:textColor="@color/sku_color_black" android:gravity="center" android:id="@id/tv_button_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" />
-    </LinearLayout>
-    <TextView android:textSize="11.0dip" android:textColor="@color/sku_color_white" android:id="@id/tv_sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

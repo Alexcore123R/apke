@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_shopping_delivery" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/iv_shopping_cart_delivery_divider" android:background="@color/shopping_cart_deep_dark_bg_color" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_delivery" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_bottom_delivery_pic" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="11.0dip" android:scaleType="centerCrop" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="22.0dip" app:svgText="" app:svgTextColor="@color/shopping_cart_delivery_icon_color" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_delivery" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/iv_bottom_delivery_pic" app:layout_constraintTop_toTopOf="0">
+            <TextView android:textSize="14.0dip" android:textColor="@color/shopping_cart_text_color_black" android:id="@id/tv_delivery_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/shopping_cart_text_color_black_7_7" android:id="@id/tv_delivery_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
+            <com.baogong.pure_ui.widget.CustomColumnAlignmentLayout android:id="@id/fbl_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.5dip" />
+            <LinearLayout android:gravity="center" android:layout_gravity="start|center" android:id="@id/ll_delivery_jump_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/shopping_cart_text_color_black_7_7" android:layout_gravity="center_vertical" android:id="@id/tv_delivery_jump_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/iv_delivery_jump_text" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="centerCrop" app:svgFontSize="12.0dip" app:svgPressedColor="@color/shopping_cart_text_pressed_color_black" app:svgText="" app:svgTextColor="@color/shopping_cart_text_color_black_7_7" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

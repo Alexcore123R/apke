@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/goods_sku_swipe_menu_layout" android:background="@color/shopping_cart_normal_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.swipe.SwipeMenuLayout android:id="@id/shopping_wish_sku_item_swipe" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ios="true" app:layout_constraintBottom_toTopOf="@id/shopping_wish_sku_divider" app:layout_constraintTop_toTopOf="0" app:menu_width="68.0dip">
+        <include android:id="@id/shopping_wish_goods_sku_item_main" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_shopping_wish_goods_sku_item_main_v1" />
+        <com.baogong.ui.swipe.SwipeItemLayout android:id="@id/shopping_cart_goods_sku_item_swipe_out" android:layout_width="68.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/ll_shopping_cart_goods_sku_item_swipe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_shopping_wish_goods_sku_item_swipe_delete" android:background="@drawable/app_baogong_shopping_cart_common_sku_delete_bg_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.baogong.ui.widget.IconSVGView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="8.0dip" app:svgFontSize="20.0dip" app:svgText="" app:svgTextColor="@color/shopping_cart_text_color_white" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/shopping_cart_text_color_white" android:gravity="center" android:id="@id/tv_shopping_wish_goods_sku_item_swipe_delete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.baogong.ui.swipe.SwipeItemLayout>
+    </com.baogong.ui.swipe.SwipeMenuLayout>
+    <View android:id="@id/shopping_wish_sku_divider" android:background="@color/shopping_cart_divider_line_color" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginStart="170.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/shopping_wish_sku_item_swipe" app:layout_goneMarginTop="10.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

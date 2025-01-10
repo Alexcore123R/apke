@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.einnovation.temu.order.confirm.impl.view.PageTopFreeShipping android:id="@id/v_top_coupon_free_shipping_banner" android:background="#fffeefe1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="54.0dip" android:minHeight="35.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <View android:id="@id/v_banner_background" android:background="#fffeefe1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="35.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

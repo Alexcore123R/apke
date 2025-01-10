@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleConstraintLayout android:layout_width="fill_parent" android:layout_height="45.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:background_normal="#ffffffff" app:background_pressed="#ffebebeb"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textColor="#ff000000" android:id="@id/tv_search_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="true" android:textDirection="locale" android:textAlignment="viewStart" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <View android:background="#ffececec" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" />
-</com.baogong.ui.flexibleview.FlexibleConstraintLayout>

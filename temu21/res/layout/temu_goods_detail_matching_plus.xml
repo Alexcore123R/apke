@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="14.0dip" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.pure_ui.widget.IconSvgView2 android:layout_gravity="center" android:layout_width="14.0dip" android:layout_height="14.0dip" app:svgCode="" app:svgNormalColor="@color/app_baogong_goods_detail_black" app:svgSize="14.0dip" />
-</FrameLayout>

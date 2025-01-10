@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.baogong.ui.widget.ScrollingWrapperView android:id="@id/common_slide_swv" android:layout_width="fill_parent" android:layout_height="47.0dip">
-        <com.baogong.ui.recycler.HorizontalRecyclerView android:id="@id/common_slide_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    </com.baogong.ui.widget.ScrollingWrapperView>
-    <com.baogong.default_home.widget.theme.ThemeSplitLineView android:layout_gravity="bottom" android:id="@id/split_line" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-</LinearLayout>

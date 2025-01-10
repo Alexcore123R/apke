@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/pay_ui_shape_rectangle_cc000000_radius_4" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.widget.IconSVGView android:id="@id/iv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:svgFontSize="18.0dip" app:svgText="e018" app:svgTextColor="@android:color/white" />
-    <RelativeLayout android:id="@id/rl_msg_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@id/iv_loading" app:layout_constraintTop_toTopOf="0">
-        <TextView android:textSize="16.0dip" android:textColor="@android:color/white" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
-    </RelativeLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

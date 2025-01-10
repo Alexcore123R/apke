@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/common_title_layout" android:background="@color/new_page_title_bar" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="30.0dip" android:layout_marginStart="14.0dip">
+        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_left" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="@dimen/app_web_title_bar_icon_size" app:svgText="@string/web.app_web_back_icon" app:svgTextColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toEndOf="@id/ll_back" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip">
+        <ImageView android:id="@id/iv_title_flag" android:visibility="gone" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="0.5dip" android:scaleType="centerCrop" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/AppWeb.TextViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/ll_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/app_web_title_bar_icon_min_width" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true">
+        <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:id="@id/iv_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="@dimen/app_web_title_bar_icon_size" app:svgText="@string/web.app_web_share_icon" app:svgTextColor="@drawable/app_web_base_ui_title_icon_selector" />
+        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_right_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="@dimen/app_web_title_bar_icon_size" app:svgTextColor="@drawable/app_web_base_ui_title_icon_selector" />
+    </LinearLayout>
+    <View android:id="@id/iv_title_divider_web" android:background="@color/bg_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

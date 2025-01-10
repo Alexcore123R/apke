@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout android:id="@id/cl_lego_middle_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_radius="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/fl_lego_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <View android:id="@id/fl_lego_container_mask" android:background="#14000000" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/fl_lego_container" app:layout_constraintEnd_toEndOf="@id/fl_lego_container" app:layout_constraintStart_toStartOf="@id/fl_lego_container" app:layout_constraintTop_toTopOf="@id/fl_lego_container" />
-</com.baogong.chat.base.view.widget.RoundedCornerConstraintLayout>

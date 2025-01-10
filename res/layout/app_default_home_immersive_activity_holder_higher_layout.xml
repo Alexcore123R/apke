@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_activity_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/ll_fg" app:layout_constraintEnd_toEndOf="@id/ll_fg" app:layout_constraintStart_toStartOf="@id/ll_fg" app:layout_constraintTop_toTopOf="@id/ll_fg" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_fg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <ImageView android:id="@id/iv_activity_pic" android:layout_width="242.0dip" android:layout_height="66.0dip" android:scaleType="centerCrop" />
+            <FrameLayout android:id="@id/fl_count_down_container" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="6.0dip">
+                <ImageView android:id="@id/iv_count_down_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/tv_count_down" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:includeFontPadding="false" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/coupon_info_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <ImageView android:id="@id/coupon_info_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <RelativeLayout android:gravity="center" android:id="@id/single_coupon_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="11.0dip">
+                <TextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/single_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/single_coupon_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_alignBaseline="@id/single_coupon_title" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/single_coupon_title" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/multi_coupon_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="11.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/left_coupon_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/left_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    <TextView android:textSize="9.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/left_coupon_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/left_coupon_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/mid_coupon_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/mid_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        <TextView android:textSize="9.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/mid_coupon_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/mid_coupon_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="start|center" android:id="@id/mid_coupon_divider" android:layout_width="1.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/right_coupon_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/right_coupon_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        <TextView android:textSize="9.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/right_coupon_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/right_coupon_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="start|center" android:id="@id/right_coupon_divider" android:layout_width="1.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/split_line" android:layout_width="0.0dip" android:layout_height="12.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/ll_fg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

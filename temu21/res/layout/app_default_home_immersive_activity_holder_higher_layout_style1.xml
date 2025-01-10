@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_activity_bg" android:layout_width="fill_parent" android:layout_height="165.0dip" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="0" />
-    <ImageView android:id="@id/iv_activity_pic" android:layout_width="249.0dip" android:layout_height="155.0dip" android:layout_marginTop="7.0dip" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@id/iv_activity_bg" />
-    <View android:id="@id/split_line" android:layout_width="0.0dip" android:layout_height="12.0dip" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/iv_activity_bg" />
-</androidx.constraintlayout.widget.ConstraintLayout>

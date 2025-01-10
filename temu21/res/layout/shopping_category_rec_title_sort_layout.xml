@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/brand_line_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="11.0dip" android:includeFontPadding="false" android:layout_marginStart="9.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_sort_by" android:paddingTop="12.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="11.0dip" app:layout_constraintBottom_toBottomOf="@id/brand_line_tv" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/brand_line_tv" app:layout_constraintTop_toTopOf="@id/brand_line_tv">
-        <TextView android:textSize="13.0dip" android:textColor="@color/shopping_category_777777_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/sort_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
-        <com.baogong.ui.widget.IconView android:textSize="11.0dip" android:textColor="@color/shopping_category_777777_text_color" android:gravity="center" android:id="@id/sort_icon" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginStart="6.0dip" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.baogong.ui.flexibleview.FlexibleRelativeLayout android:id="@id/vg_fold" android:focusable="true" android:layout_width="fill_parent" android:layout_height="41.0dip" app:background_normal="@android:color/white" app:background_pressed="#ffebebeb"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/v_payment_item_line" android:background="@color/order_confirm_base_divider_bg_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
-    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="46.0dip" android:layout_marginEnd="12.0dip">
-        <LinearLayout android:orientation="horizontal" android:id="@id/ll_icon_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <com.baogong.ui.widget.IconSVGView android:id="@id/iv_arrow_to_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgFontSize="13.0dip" app:svgText="e61e" app:svgTextColor="#ff7a7a7a" />
-    </LinearLayout>
-</com.baogong.ui.flexibleview.FlexibleRelativeLayout>

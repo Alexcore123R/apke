@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="62.0dip" android:layout_height="62.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/iv_photo" android:layout_width="52.0dip" android:layout_height="52.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:riv_border_color="#ffe02e24" app:riv_border_width="1.0dip" />
-    <ImageView android:id="@id/iv_continuous_media_play" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/app_comment_album_video_play" app:layout_constraintBottom_toBottomOf="@id/iv_photo" app:layout_constraintEnd_toEndOf="@id/iv_photo" app:layout_constraintStart_toStartOf="@id/iv_photo" app:layout_constraintTop_toTopOf="@id/iv_photo" />
-    <ImageView android:id="@id/iv_delete" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="-10.0dip" android:src="@drawable/app_comment_camera_app_album_ic_close_selector" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

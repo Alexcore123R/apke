@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cl_pay_process_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="46.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baogong.ui.flexibleview.FlexibleLinearLayout android:orientation="horizontal" android:id="@id/ll_pay_process_bar_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.5dip" android:layout_below="@id/iv_process_bar_arrow" android:paddingStart="9.0dip" android:paddingEnd="12.0dip" app:corner_radius="4.0dip" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:stroke_color_normal="#ffcdcdcd" app:stroke_width_normal="0.65dip" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff777777" android:id="@id/tv_pay_process_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:layout_below="@id/ll_pay_process_bar_content" />
+    <ImageView android:id="@id/iv_process_bar_arrow" android:layout_width="22.0dip" android:layout_height="10.0dip" android:src="@drawable/order_confirm_top_tip_arrow" android:layout_marginStart="63.0dip" />
+</RelativeLayout>

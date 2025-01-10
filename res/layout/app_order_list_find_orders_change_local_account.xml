@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.baogong.ui.flexibleview.FlexibleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:paddingStart="12.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:background_normal="@color/white" app:background_pressed="#ffebebeb" app:corner_radius="4.0dip" app:stroke_color_normal="#fffb7701" app:stroke_width_normal="0.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:id="@id/app_order_list_find_orders_local_account_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="true" android:layout_weight="1.0" />
+    <com.baogong.ui.widget.IconSVGView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginStart="6.0dip" app:svgFontSize="14.0dip" app:svgText="" app:svgTextColor="@color/black" />
+</com.baogong.ui.flexibleview.FlexibleLinearLayout>

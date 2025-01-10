@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.einnovation.whaleco.lego.m2.impl.view.LegoEditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:textCursorDrawable="@drawable/whc_lego_text_area_cursor"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

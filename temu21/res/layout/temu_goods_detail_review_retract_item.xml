@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0dip" android:textColor="@color/app_baogong_goods_black" android:id="@id/tvGoodsDetailReviewRetractTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:includeFontPadding="false" android:layout_marginStart="12.0dip" app:lineHeight="16.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0dip" android:textColor="@color/app_baogong_goods_black" android:id="@id/tvGoodsDetailReviewRetractDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="12.0dip" android:includeFontPadding="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:lineHeight="19.0dip" />
-    <View android:id="@id/vTemuGoodsDetailReviewRetractDivider" android:background="@color/temu_goods_detail_dfdfdf" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginStart="12.0dip" />
-</androidx.appcompat.widget.LinearLayoutCompat>

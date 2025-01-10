@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/item_details_popup_layout" android:background="#cd000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.baogong.ui.flexibleview.FlexibleLinearLayout android:orientation="vertical" android:id="@id/goods_selector_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:background_normal="#ffffffff" app:corner_radius_top_left="20.0dip" app:corner_radius_top_right="20.0dip">
-        <include android:id="@id/cl_item_details_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/order_confirm_dialog_title" />
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/item_details_goods_recycler" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    </com.baogong.ui.flexibleview.FlexibleLinearLayout>
-</RelativeLayout>

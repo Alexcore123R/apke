@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/fl_guide_clean_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_guide_clean_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/top_space" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/ll_guide_clean_fragment_main_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_guide_clean_fragment_main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@id/top_space">
+            <include android:id="@id/ll_guide_clean_title" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_shopping_cart_common_guide_clean_fragment_title_layout" />
+            <com.baogong.business.ui.recycler.ParentProductListView android:id="@id/clean_goods_list" android:background="@color/shopping_cart_normal_bg_color" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <include android:id="@id/guide_clean_bottom" android:background="@color/shopping_cart_normal_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/app_baogong_shopping_cart_common_guide_clean_fragment_bottom_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

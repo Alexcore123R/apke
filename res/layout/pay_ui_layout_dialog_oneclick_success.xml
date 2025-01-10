@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvContent" android:paddingBottom="96.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.baogong.ui.widget.IconSVGView android:layout_gravity="end|center|top" android:id="@id/iconClose" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="9.0dip" android:scaleType="center" android:layout_marginEnd="6.0dip" android:stateListAnimator="@drawable/pay_ui_anim_state_alpha" app:svgFontSize="16.0dip" app:svgPressedColor="#ff666666" app:svgText="" app:svgTextColor="#ff000000" />
+    <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tvContinue" android:background="@drawable/pay_ui_selector_buttonl_white_stroke_black_ebebeb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="12.0dip" android:includeFontPadding="false" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

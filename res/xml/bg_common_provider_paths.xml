@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="bg_cache" path="app_album/" />
+    <cache-path name="bg_download" path="downloads/" />
+    <cache-path name="bg_share" path="share/" />
+    <external-media-path name="bg_external_media" path="." />
+</paths>

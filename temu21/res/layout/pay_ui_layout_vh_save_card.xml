@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:visibility="gone" app:layout_constraintTop_toTopOf="0" layout="@layout/pay_ui_layout_item_save_card_info_switch_v2" />
-    <include android:visibility="gone" app:layout_constraintTop_toTopOf="0" layout="@layout/pay_ui_layout_item_save_card_info_switch" />
-</androidx.constraintlayout.widget.ConstraintLayout>

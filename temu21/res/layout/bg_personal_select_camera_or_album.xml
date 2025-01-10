@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_album" android:background="@drawable/bg_personal_dialog_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" />
-    <View android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-    <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_camera" android:background="@drawable/bg_personal_ffffff_cell_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" />
-    <View android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-    <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/ll_cancel" android:background="@drawable/bg_personal_ffffff_cell_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" />
-</LinearLayout>
